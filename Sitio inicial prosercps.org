@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProSer — Consultores Psicosociales | Pereira, Colombia</title>
+  <meta name="description" content="ProSer ofrece acompañamiento terapéutico, pedagógico, consultoría social comunitaria y empresarial. Servicios psicosociales integrales en Pereira y cualquier parte del mundo.">
+  <link rel="canonical" href="https://prosercps.org/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="/proser-logo.png" alt="ProSer Consultores Psicosociales" height="42">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/sobre/">Sobre ProSer</a></li>
+      <li><a href="/servicios/">Servicios</a></li>
+      <li><a href="/proyectos/">Proyectos</a></li>
+      <li><a href="/ebooks/">Recursos</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contacto/" class="nav-cta">Contáctanos</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow">Consultores Psicosociales · Pereira, Risaralda</span>
+      <h1 class="hero-title">Acompañamos tu proceso<br><em>con ciencia, calidez<br>y compromiso genuino.</em></h1>
+      <p class="hero-lead">Servicios psicosociales integrales para personas, familias, instituciones educativas y empresas. Presencial o virtual, desde Pereira para cualquier parte del mundo.</p>
+      <div class="hero-actions">
+        <a href="/servicios/" class="btn-primary">Nuestros servicios</a>
+        <a href="/contacto/" class="btn-outline-dark">Solicitar información</a>
+      </div>
+    </div>
+  </div>
+  <div class="color-band" style="margin-top:4rem;"></div>
+</section>
+
+<!-- QUIÉNES SOMOS -->
+<section class="section-about">
+  <div class="container grid-2">
+    <div class="about-text">
+      <span class="eyebrow-blue">Sobre nosotros</span>
+      <h2 class="section-title">Promover el Ser.<br><em>Ese es nuestro propósito.</em></h2>
+      <div class="rule-blue"></div>
+      <p>ProSer es una marca de servicios psicosociales comprometida con la prestación de atención de alta calidad en diversas áreas. Nos enfocamos en impactar positivamente en todas las esferas del ser humano: individual, familiar, social, educativa y empresarial.</p>
+      <p>Nos esforzamos por posicionarnos como referentes en consultoría psicosocial, reconocidos por nuestro compromiso con la mejora de la calidad de vida y el bienestar de las personas, a través de servicios que se distinguen por su <strong>ética, profesionalismo, rigurosidad científica y calidez humana</strong>.</p>
+      <a href="/sobre/" class="btn-blue" style="margin-top:.5rem;">Conocer más sobre ProSer</a>
+    </div>
+    <div class="about-logo-block">
+      <img src="/proser-logo.png" alt="ProSer Consultores Psicosociales" class="about-logo">
+      <div class="about-stat-grid">
+        <div class="stat-card">
+          <span class="stat-num">+10</span>
+          <span class="stat-label">años de experiencia</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">+20</span>
+          <span class="stat-label">instituciones atendidas</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">5</span>
+          <span class="stat-label">líneas de servicio</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">Nacional</span>
+          <span class="stat-label">alcance de proyectos</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="color-band-divider"></div>
+
+<!-- SERVICIOS -->
+<section class="section-services">
+  <div class="container">
+    <div class="section-header center">
+      <span class="eyebrow-blue">Nuestras líneas de servicio</span>
+      <h2 class="section-title">Atención psicosocial integral<br>para cada contexto de vida</h2>
+      <p class="section-lead">Diseñamos, ejecutamos y evaluamos procesos orientados al bienestar de individuos, familias, comunidades y organizaciones.</p>
+    </div>
+    <div class="services-grid">
+      <article class="service-card service-blue">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2C7 2 3 6 3 11c0 3 1.5 5.5 3.8 7.1L6 21l3-1a9 9 0 006 0l3 1-.8-2.9C19.5 16.5 21 14 21 11c0-5-4-9-9-9z"/><path d="M9 11h6M9 14h4"/></svg>
+        </div>
+        <h3>Acompañamiento Terapéutico</h3>
+        <p>Apoyo especializado y personalizado para el desarrollo personal, manejo de emociones y mejora del bienestar psicológico. Atención individual, de pareja y familiar, presencial o virtual.</p>
+        <a href="/servicios/#terapeutico" class="service-link">Ver servicios &rarr;</a>
+      </article>
+      <article class="service-card service-magenta">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 5V3M16 5V3"/></svg>
+        </div>
+        <h3>Acompañamiento Pedagógico</h3>
+        <p>Optimizamos los procesos de enseñanza-aprendizaje. Trabajamos con estudiantes, familias, docentes e instituciones para fortalecer las capacidades pedagógicas en todos los niveles.</p>
+        <a href="/servicios/#pedagogico" class="service-link">Ver servicios &rarr;</a>
+      </article>
+      <article class="service-card service-green">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        </div>
+        <h3>Consultoría Social Comunitaria</h3>
+        <p>Diseñamos y ejecutamos proyectos de transformación social trabajando con comunidades, organizaciones y entidades públicas y privadas para impulsar cambios positivos y construcción de tejido social.</p>
+        <a href="/servicios/#social-comunitaria" class="service-link">Ver servicios &rarr;</a>
+      </article>
+      <article class="service-card service-bluedark">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a2 2 0 014 0v2M12 13v3M10 15h4"/></svg>
+        </div>
+        <h3>Consultoría Empresarial</h3>
+        <p>Fortalecemos el talento humano y los procesos organizacionales. Gestión del riesgo psicosocial, clima organizacional, reclutamiento, capacitación y programas de bienestar laboral.</p>
+        <a href="/servicios/#empresarial" class="service-link">Ver servicios &rarr;</a>
+      </article>
+      <article class="service-card service-yellow">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2l2 7h7l-5.5 4 2 7L12 16l-5.5 4 2-7L3 9h7z"/></svg>
+        </div>
+        <h3>Proyección Social</h3>
+        <p>Nos involucramos activamente en acciones de proyección social a través de alianzas con instituciones y organizaciones, contribuyendo al bienestar de la sociedad.</p>
+        <a href="/servicios/#proyeccion" class="service-link">Ver servicios &rarr;</a>
+      </article>
+    </div>
+    <div class="services-cta">
+      <a href="/servicios/" class="btn-blue">Ver todas las líneas de servicio</a>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTES -->
+<section class="section-clients">
+  <div class="container">
+    <div class="section-header center">
+      <span class="eyebrow-blue">Aliados y clientes</span>
+      <h2 class="section-title">Instituciones que han<br><em>confiado en ProSer</em></h2>
+    </div>
+    <div class="clients-track">
+      <div class="clients-row">
+        <span class="client-name">Universidad Católica de Pereira</span><span class="client-dot"></span>
+        <span class="client-name">Saint Andrews School Pereira</span><span class="client-dot"></span>
+        <span class="client-name">La Salle Pereira</span><span class="client-dot"></span>
+        <span class="client-name">Hotel Don Alfonso</span><span class="client-dot"></span>
+        <span class="client-name">Bicco Farms</span><span class="client-dot"></span>
+        <span class="client-name">Trackercol</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Silveria Espinosa IED</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Santa Bárbara IED</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Eduardo Santos IED</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Rodrigo Lara Bonilla IED</span><span class="client-dot"></span>
+        <span class="client-name">Institución Educativa Santa Sofía</span><span class="client-dot"></span>
+        <span class="client-name">Cooasobien Dosquebradas</span><span class="client-dot"></span>
+        <span class="client-name">Velpati S.A.S.</span><span class="client-dot"></span>
+        <span class="client-name">Pixel Suministros</span><span class="client-dot"></span>
+        <!-- Duplicado para loop continuo -->
+        <span class="client-name">Universidad Católica de Pereira</span><span class="client-dot"></span>
+        <span class="client-name">Saint Andrews School Pereira</span><span class="client-dot"></span>
+        <span class="client-name">La Salle Pereira</span><span class="client-dot"></span>
+        <span class="client-name">Hotel Don Alfonso</span><span class="client-dot"></span>
+        <span class="client-name">Bicco Farms</span><span class="client-dot"></span>
+        <span class="client-name">Trackercol</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Silveria Espinosa IED</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Santa Bárbara IED</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Eduardo Santos IED</span><span class="client-dot"></span>
+        <span class="client-name">Colegio Rodrigo Lara Bonilla IED</span><span class="client-dot"></span>
+        <span class="client-name">Institución Educativa Santa Sofía</span><span class="client-dot"></span>
+        <span class="client-name">Cooasobien Dosquebradas</span><span class="client-dot"></span>
+        <span class="client-name">Velpati S.A.S.</span><span class="client-dot"></span>
+        <span class="client-name">Pixel Suministros</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section-testimonios">
+  <div class="container">
+    <div class="test-header">
+      <div>
+        <span class="eyebrow-blue">Testimonios</span>
+        <h2 class="section-title">Lo que dicen<br><em>quienes nos conocen</em></h2>
+      </div>
+      <div>
+        <div class="rule-blue"></div>
+        <p style="font-size:.94rem;color:var(--gris-text);line-height:1.8;">Cada proceso que acompañamos deja una huella. Estas son algunas de las voces de quienes han confiado en ProSer.</p>
+      </div>
+    </div>
+    <div class="test-viewport">
+      <div class="test-track" id="testTrack">
+        <!-- Página 1 -->
+        <div class="test-page">
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Gracias a la orientación vocacional que recibí, pude descubrir mis fortalezas e intereses. El proceso fue muy completo y me ayudaron a tomar una decisión. Ahora me siento seguro del camino que seguiré.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Joven — Orientación vocacional</p>
+            <p class="test-cargo">Proceso educativo · Pereira</p>
+          </div>
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Participar del taller para padres fue una gran experiencia. Aprendí que es bueno escuchar y comprender mejor a mis hijos, a manejar sus emociones, a validarlas y a establecer límites con amor. Este espacio me brindó herramientas que agradezco.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Madre de familia</p>
+            <p class="test-cargo">Taller Súper Pás y Más · Pereira</p>
+          </div>
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Trabajar con ProSer ha sido un acierto para nuestra empresa. Hemos implementado estrategias para fomentar un ambiente laboral más saludable y productivo. Son un equipo muy profesional y empático.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Gerente de Talento Humano</p>
+            <p class="test-cargo">Empresa de servicios · Dosquebradas</p>
+          </div>
+        </div>
+        <!-- Página 2 -->
+        <div class="test-page">
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">La capacitación que recibimos fue muy enriquecedora. Como docentes enfrentamos retos a diario, pero esta experiencia me brindó herramientas para mejorar la comunicación con mis estudiantes y fortalecer el ambiente escolar.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Docente</p>
+            <p class="test-cargo">Institución educativa · Pereira</p>
+          </div>
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Desde que tenemos la membresía con ProSer hemos visto un impacto muy positivo en toda nuestra comunidad educativa. Su profesionalismo y compromiso ha superado nuestras expectativas. Sin duda son un aliado estratégico para el crecimiento de nuestra institución.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Rectora</p>
+            <p class="test-cargo">Institución educativa · Risaralda</p>
+          </div>
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Quiero darle las gracias por devolverme la esperanza como paciente. Le estaré eternamente agradecido por su compromiso y su calidez humana.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Paciente individual</p>
+            <p class="test-cargo">Proceso clínico · Pereira</p>
+          </div>
+        </div>
+        <!-- Página 3 -->
+        <div class="test-page">
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Gracias por ser parte de nuestro camino de vida, por su tiempo, su dedicación, por la paciencia y por los momentos vividos en el proceso.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Familia</p>
+            <p class="test-cargo">Proceso terapéutico familiar · Pereira</p>
+          </div>
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Gracias por tanto. Estoy feliz y agradecida con los cambios de mi hija, por la dedicación y el apoyo. Lo vamos a llevar toda la vida en nuestros corazones.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Madre de familia</p>
+            <p class="test-cargo">Proceso infantil · Pereira</p>
+          </div>
+          <div class="test-card">
+            <div class="test-marca">&ldquo;</div>
+            <p class="test-texto">Muchas gracias por el proceso que han llevado con mi hijo; es evidente el cambio que ha tenido con su acompañamiento.</p>
+            <div class="test-sep"></div>
+            <p class="test-autor">Padre de familia</p>
+            <p class="test-cargo">Proceso infantil · Pereira</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="test-controls">
+      <button class="test-btn" id="testPrev" aria-label="Anterior">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="test-dots" id="testDots">
+        <button class="test-dot active" data-page="0"></button>
+        <button class="test-dot" data-page="1"></button>
+        <button class="test-dot" data-page="2"></button>
+      </div>
+      <button class="test-btn" id="testNext" aria-label="Siguiente">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section class="section-projects">
+  <div class="container">
+    <div class="section-header space">
+      <div>
+        <span class="eyebrow-blue">Proyectos sociales</span>
+        <h2 class="section-title">Con tu ayuda,<br><em>todo es posible</em></h2>
+      </div>
+      <a href="/proyectos/" class="btn-outline-blue">Ver todos los proyectos</a>
+    </div>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-tag tag-blue">Salud Mental</div>
+        <h3>Proyecto Salud Mental</h3>
+        <p>Brindamos acompañamiento psicosocial a niños, niñas y adolescentes de los estratos más bajos, garantizando acceso a atención psicológica de calidad para quienes no podrían acceder a ella de otra manera.</p>
+      </article>
+      <article class="project-card">
+        <div class="project-tag tag-magenta">Crianza</div>
+        <h3>Súper Pás y Más</h3>
+        <p>Grupo de apoyo para padres, madres y cuidadores. Un espacio de encuentro virtual y presencial para el diálogo, el compartir de experiencias y la formación práctica en crianza con respaldo científico.</p>
+      </article>
+      <article class="project-card">
+        <div class="project-tag tag-green">Proyección Social</div>
+        <h3>Un Juguete, Una Sonrisa</h3>
+        <p>Llevamos juguetes nuevos a niños y niñas en zonas vulnerables de diferentes regiones del país. El juego es un derecho fundamental de la infancia — este proyecto lo hace realidad.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="color-band-divider"></div>
+
+<!-- CTA FINAL -->
+<section class="section-cta">
+  <div class="container">
+    <div class="cta-block">
+      <h2 class="cta-title">Tu proceso importa.<br><em>Nosotros también.</em></h2>
+      <p>Si tienes preguntas sobre nuestros servicios o deseas solicitar una cotización, escríbenos. Te respondemos lo antes posible.</p>
+      <div class="cta-actions">
+        <a href="/contacto/" class="btn-white">Escribirnos</a>
+        <a href="https://wa.me/573054303746?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProSer." target="_blank" rel="noopener" class="btn-outline-white">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="footer-band"></div>
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="/proser-logo.png" alt="ProSer" height="46">
+        <p>Consultores Psicosociales. Ubicado en Pereira, Risaralda. Servicios presenciales y virtuales para cualquier parte del mundo.</p>
+        <p><a href="mailto:info@prosercps.org">info@prosercps.org</a></p>
+        <p><a href="tel:+573054303746">+57 305 430 3746</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <a href="/servicios/#terapeutico">Acompañamiento Terapéutico</a>
+        <a href="/servicios/#pedagogico">Acompañamiento Pedagógico</a>
+        <a href="/servicios/#social-comunitaria">Consultoría Social Comunitaria</a>
+        <a href="/servicios/#empresarial">Consultoría Empresarial</a>
+        <a href="/servicios/#proyeccion">Proyección Social</a>
+      </div>
+      <div class="footer-col">
+        <h4>Organización</h4>
+        <a href="/sobre/">Sobre ProSer</a>
+        <a href="/proyectos/">Proyectos</a>
+        <a href="/ebooks/">Recursos</a>
+        <a href="/membresia/">Membresía</a>
+        <a href="/kline/">Kliné</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contacto/">Contacto</a>
+        <a href="/privacidad/">Política de privacidad</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <a href="https://wa.me/573054303746" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://instagram.com/prosercps" target="_blank" rel="noopener">Instagram @prosercps</a>
+        <a href="https://facebook.com/prosercps" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://youtube.com/@prosercps" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ProSer Consultores Psicosociales. Una marca de Harold Pérez.</p>
+      <p><a href="/privacidad/">Política de tratamiento de datos</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links  = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => { links.classList.toggle('open'); toggle.classList.toggle('open'); });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { links.classList.remove('open'); toggle.classList.remove('open'); }));
+
+  // Testimonios slider
+  let current = 0;
+  const pages = document.querySelectorAll('.test-page');
+  const track = document.getElementById('testTrack');
+  const dots  = document.querySelectorAll('.test-dot');
+  function goTo(n) {
+    current = (n + pages.length) % pages.length;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+  }
+  document.getElementById('testPrev').addEventListener('click', () => goTo(current - 1));
+  document.getElementById('testNext').addEventListener('click', () => goTo(current + 1));
+  dots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.page)));
+</script>
+</body>
+</html>
+
+/* ── RESET & VARIABLES ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --azul:          #1478B4;
+  --azul-dark:     #0E5A8A;
+  --azul-light:    #E8F4FB;
+  --magenta:       #AF327D;
+  --magenta-light: #F9EDF5;
+  --verde:         #4B964B;
+  --verde-light:   #EDF5ED;
+  --amarillo:      #F4CD2A;
+  --gris-bg:       #F7F9FC;
+  --gris-line:     #E4E8EE;
+  --gris-text:     #6B7280;
+  --negro:         #1A1A1A;
+  --blanco:        #FFFFFF;
+
+  --band: linear-gradient(90deg,
+    #AF327D 0% 16.6%,
+    #3264AF 16.6% 33.2%,
+    #36AAD9 33.2% 49.8%,
+    #F4CD2A 49.8% 66.4%,
+    #AFC832 66.4% 83%,
+    #4B964B 83% 100%
+  );
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  --radius: 4px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.07);
+  --shadow-md: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--blanco);
+  color: var(--negro);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.12;
+}
+
+p { line-height: 1.75; }
+a { color: inherit; }
+
+img { max-width: 100%; display: block; }
+
+/* ── CONTENEDOR ── */
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── EYEBROWS ── */
+.eyebrow {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gris-text);
+  margin-bottom: 1rem;
+}
+.eyebrow-blue {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--azul);
+  margin-bottom: 1rem;
+}
+
+/* ── BANDA MULTICOLOR ── */
+.color-band { height: 5px; background: var(--band); width: 100%; }
+.color-band-divider { height: 4px; background: var(--band); width: 100%; }
+
+.rule-blue { width: 40px; height: 2px; background: var(--azul); margin: 1.25rem 0 1.5rem; }
+
+/* ── BOTONES ── */
+.btn-primary {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--azul); color: var(--blanco);
+  padding: .8rem 1.75rem;
+  font-family: var(--font-body); font-size: .8rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  border-radius: var(--radius); transition: background .2s, transform .15s;
+}
+.btn-primary:hover { background: var(--azul-dark); transform: translateY(-1px); }
+
+.btn-outline-dark {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: transparent; color: var(--negro);
+  padding: .8rem 1.75rem;
+  font-family: var(--font-body); font-size: .8rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  border: 1.5px solid var(--negro); border-radius: var(--radius); transition: all .2s;
+}
+.btn-outline-dark:hover { background: var(--negro); color: var(--blanco); }
+
+.btn-blue {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--azul); color: var(--blanco);
+  padding: .8rem 1.75rem;
+  font-family: var(--font-body); font-size: .8rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  border-radius: var(--radius); transition: background .2s, transform .15s;
+}
+.btn-blue:hover { background: var(--azul-dark); transform: translateY(-1px); }
+
+.btn-outline-blue {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: transparent; color: var(--azul);
+  padding: .8rem 1.75rem;
+  font-family: var(--font-body); font-size: .8rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  border: 1.5px solid var(--azul); border-radius: var(--radius); transition: all .2s;
+}
+.btn-outline-blue:hover { background: var(--azul); color: var(--blanco); }
+
+.btn-white {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--blanco); color: var(--azul);
+  padding: .8rem 1.75rem;
+  font-family: var(--font-body); font-size: .8rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  border-radius: var(--radius); transition: all .2s;
+}
+.btn-white:hover { background: var(--azul-light); }
+
+.btn-outline-white {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: transparent; color: var(--blanco);
+  padding: .8rem 1.75rem;
+  font-family: var(--font-body); font-size: .8rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  border: 1.5px solid rgba(255,255,255,.45); border-radius: var(--radius); transition: all .2s;
+}
+.btn-outline-white:hover { border-color: var(--blanco); background: rgba(255,255,255,.1); }
+
+/* ── NAV ── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: var(--blanco);
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s, box-shadow .3s;
+}
+nav.scrolled { border-color: var(--gris-line); box-shadow: 0 2px 16px rgba(0,0,0,.06); }
+
+.nav-inner {
+  max-width: 1120px; margin: 0 auto; padding: 0 2rem;
+  height: 68px; display: flex; align-items: center; justify-content: space-between;
+}
+
+.nav-logo img { display: block; }
+
+.nav-links { display: flex; gap: 1.75rem; list-style: none; align-items: center; }
+.nav-links a {
+  font-family: var(--font-body); font-size: .75rem; font-weight: 600;
+  color: var(--negro); text-decoration: none;
+  letter-spacing: .07em; text-transform: uppercase; transition: color .2s;
+}
+.nav-links a:hover { color: var(--azul); }
+
+.nav-cta {
+  background: var(--azul) !important; color: var(--blanco) !important;
+  padding: .45rem 1.1rem !important; border-radius: var(--radius) !important;
+}
+.nav-cta:hover { background: var(--azul-dark) !important; color: var(--blanco) !important; }
+
+.nav-toggle {
+  display: none; flex-direction: column; gap: 5px;
+  cursor: pointer; background: none; border: none; padding: 4px;
+}
+.nav-toggle span { display: block; width: 24px; height: 1.5px; background: var(--negro); transition: all .3s; }
+
+/* ── PAGE HERO (subpáginas) ── */
+.page-hero {
+  background: var(--blanco);
+  padding: 9rem 0 4rem;
+  border-bottom: 4px solid transparent;
+  border-image: var(--band) 1;
+}
+.page-hero h1 { font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 600; margin-bottom: 1rem; }
+.page-hero .lead { font-size: 1rem; color: var(--gris-text); max-width: 580px; line-height: 1.8; }
+
+/* ── HERO HOME ── */
+.hero {
+  padding: 9rem 0 0;
+  background: var(--blanco);
+  min-height: 88vh;
+  display: flex; flex-direction: column; justify-content: center;
+}
+.hero-content { max-width: 680px; }
+.hero-title {
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  font-weight: 600; color: var(--negro);
+  margin-bottom: 1.5rem; line-height: 1.08;
+}
+.hero-title em { font-style: italic; font-weight: 400; color: var(--azul); }
+.hero-lead { font-size: 1rem; color: var(--gris-text); max-width: 520px; margin-bottom: 2.5rem; line-height: 1.85; }
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+/* ── SECTION ABOUT ── */
+.section-about { padding: 6rem 0; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+.about-text .section-title { font-size: clamp(1.8rem, 3vw, 2.6rem); margin-bottom: .5rem; }
+.about-text p { color: var(--gris-text); margin-bottom: 1.25rem; font-size: .94rem; }
+.about-text strong { color: var(--negro); }
+.about-logo-block { display: flex; flex-direction: column; gap: 2rem; align-items: center; }
+.about-logo { max-width: 260px; width: 100%; }
+.about-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; width: 100%; }
+.stat-card {
+  background: var(--gris-bg); border-radius: var(--radius);
+  padding: 1.25rem; display: flex; flex-direction: column; gap: .25rem;
+  border-left: 3px solid var(--azul);
+}
+.stat-num { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--azul); line-height: 1; }
+.stat-label { font-size: .78rem; color: var(--gris-text); font-weight: 500; }
+
+/* ── SECTION SERVICES ── */
+.section-services { padding: 6rem 0; background: var(--gris-bg); }
+.section-title { font-size: clamp(1.8rem, 3vw, 2.6rem); }
+.section-header { margin-bottom: 3rem; }
+.section-header.center { text-align: center; }
+.section-header.center .section-lead { margin: 1rem auto 0; }
+.section-lead { color: var(--gris-text); max-width: 560px; font-size: .94rem; margin-top: .75rem; }
+.section-header.space { display: flex; justify-content: space-between; align-items: flex-end; }
+
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.service-card {
+  background: var(--blanco); border-radius: var(--radius);
+  padding: 2rem; border-top: 4px solid transparent;
+  box-shadow: var(--shadow); display: flex; flex-direction: column; gap: .9rem;
+  transition: transform .2s, box-shadow .2s;
+}
+.service-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.service-card h3 { font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
+.service-card p { font-size: .86rem; color: var(--gris-text); flex: 1; line-height: 1.75; }
+.service-icon { width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.service-link {
+  font-family: var(--font-body); font-size: .74rem; font-weight: 600;
+  text-decoration: none; letter-spacing: .06em; text-transform: uppercase;
+  margin-top: auto; transition: opacity .2s;
+}
+.service-link:hover { opacity: .65; }
+
+.service-blue  { border-top-color: var(--azul); }
+.service-blue .service-icon  { background: var(--azul-light); color: var(--azul); }
+.service-blue .service-link  { color: var(--azul); }
+.service-magenta { border-top-color: var(--magenta); }
+.service-magenta .service-icon { background: var(--magenta-light); color: var(--magenta); }
+.service-magenta .service-link { color: var(--magenta); }
+.service-green { border-top-color: var(--verde); }
+.service-green .service-icon { background: var(--verde-light); color: var(--verde); }
+.service-green .service-link { color: var(--verde); }
+.service-bluedark { border-top-color: #3264AF; }
+.service-bluedark .service-icon { background: #EEF2FA; color: #3264AF; }
+.service-bluedark .service-link { color: #3264AF; }
+.service-yellow { border-top-color: #C09800; }
+.service-yellow .service-icon { background: #FEF9E0; color: #C09800; }
+.service-yellow .service-link { color: #C09800; }
+.service-card:nth-child(5) { grid-column: 2; }
+
+.services-cta { margin-top: 3rem; text-align: center; }
+
+/* ── CLIENTS ── */
+.section-clients { padding: 5rem 0; overflow: hidden; }
+.clients-track { margin-top: 2.5rem; overflow: hidden; position: relative; }
+.clients-track::before,
+.clients-track::after { content: ''; position: absolute; top: 0; bottom: 0; width: 80px; z-index: 2; }
+.clients-track::before { left: 0; background: linear-gradient(to right, var(--blanco), transparent); }
+.clients-track::after  { right: 0; background: linear-gradient(to left,  var(--blanco), transparent); }
+.clients-row {
+  display: flex; align-items: center; gap: 2rem;
+  animation: scroll-clients 40s linear infinite; white-space: nowrap;
+}
+.client-name { font-family: var(--font-body); font-size: .85rem; font-weight: 500; color: var(--gris-text); flex-shrink: 0; }
+.client-dot  { width: 5px; height: 5px; border-radius: 50%; background: var(--azul); flex-shrink: 0; opacity: .35; }
+@keyframes scroll-clients { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+/* ── TESTIMONIOS ── */
+.section-testimonios { padding: 6rem 0; background: var(--gris-bg); }
+.test-header { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; margin-bottom: 3.5rem; }
+.test-viewport { overflow: hidden; }
+.test-track { display: flex; transition: transform .4s ease; }
+.test-page { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem; min-width: 100%; flex: 0 0 100%; }
+.test-card {
+  background: var(--blanco); padding: 2rem; border-radius: var(--radius);
+  border: 1px solid var(--gris-line); display: flex; flex-direction: column; gap: .75rem;
+}
+.test-marca { font-family: var(--font-display); font-size: 3.5rem; color: var(--azul); line-height: 1; }
+.test-texto { font-size: .88rem; color: var(--gris-text); line-height: 1.8; flex: 1; font-style: italic; }
+.test-sep { width: 30px; height: 1.5px; background: var(--azul); opacity: .4; }
+.test-autor { font-size: .75rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--negro); }
+.test-cargo { font-size: .78rem; color: var(--gris-text); }
+.test-controls { display: flex; align-items: center; justify-content: center; gap: 1.5rem; margin-top: 2rem; }
+.test-btn {
+  width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--gris-line);
+  background: var(--blanco); cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: all .2s;
+}
+.test-btn:hover { border-color: var(--azul); color: var(--azul); }
+.test-dots { display: flex; gap: .5rem; }
+.test-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gris-line); border: none; cursor: pointer; transition: background .2s; }
+.test-dot.active { background: var(--azul); }
+
+/* ── PROYECTOS ── */
+.section-projects { padding: 6rem 0; }
+.projects-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem; margin-top: 1rem; }
+.project-card {
+  background: var(--blanco); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); padding: 2rem;
+  display: flex; flex-direction: column; gap: .75rem;
+  transition: box-shadow .2s, transform .2s;
+}
+.project-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.project-tag {
+  display: inline-block; font-family: var(--font-body);
+  font-size: .68rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+  padding: .2rem .7rem; border-radius: 20px; align-self: flex-start;
+}
+.tag-blue    { background: var(--azul-light); color: var(--azul); }
+.tag-magenta { background: var(--magenta-light); color: var(--magenta); }
+.tag-green   { background: var(--verde-light); color: var(--verde); }
+.project-card h3 { font-size: 1.1rem; font-weight: 600; line-height: 1.25; }
+.project-org { font-size: .78rem; color: var(--azul); font-weight: 600; }
+.project-card p:not(.project-org) { font-size: .86rem; color: var(--gris-text); line-height: 1.75; }
+
+/* ── CTA FINAL ── */
+.section-cta { padding: 6rem 0; background: var(--azul); }
+.cta-block { max-width: 580px; margin: 0 auto; text-align: center; }
+.cta-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 600; color: var(--blanco); margin-bottom: 1.25rem; line-height: 1.12; }
+.cta-title em { font-style: italic; font-weight: 400; }
+.cta-block p { color: rgba(255,255,255,.65); margin-bottom: 2.5rem; font-size: .96rem; }
+.cta-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+/* ── FOOTER ── */
+footer {
+  background: var(--blanco);
+  padding: 4rem 0 2rem;
+  border-top: 1px solid var(--gris-line);
+}
+.footer-band { height: 4px; background: var(--band); }
+.footer-inner {
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem;
+}
+.footer-brand img { margin-bottom: 1rem; }
+.footer-brand p { font-size: .84rem; color: var(--gris-text); line-height: 1.7; margin-bottom: 0; }
+.footer-brand a { font-size: .84rem; color: var(--gris-text); text-decoration: none; transition: color .2s; }
+.footer-brand a:hover { color: var(--azul); }
+.footer-col h4 {
+  font-family: var(--font-body); font-size: .68rem; font-weight: 600;
+  letter-spacing: .15em; text-transform: uppercase; color: var(--azul); margin-bottom: 1rem;
+}
+.footer-col a {
+  display: block; font-size: .84rem; color: var(--gris-text);
+  text-decoration: none; margin-bottom: .5rem; transition: color .2s;
+}
+.footer-col a:hover { color: var(--negro); }
+.footer-bottom {
+  border-top: 1px solid var(--gris-line); padding-top: 1.5rem;
+  display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+}
+.footer-bottom p { font-size: .74rem; color: var(--gris-text); }
+.footer-bottom a { color: var(--gris-text); text-decoration: none; transition: color .2s; }
+.footer-bottom a:hover { color: var(--negro); }
+
+/* ── SOBRE ── */
+.mision-vision { padding: 6rem 0; background: var(--gris-bg); }
+.mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+.mv-card { background: var(--blanco); border-radius: var(--radius); padding: 2.5rem; border-top: 4px solid var(--azul); }
+.mv-card.magenta { border-top-color: var(--magenta); }
+.mv-label { font-size: .68rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--azul); margin-bottom: .75rem; display: block; }
+.mv-card.magenta .mv-label { color: var(--magenta); }
+.mv-card h3 { font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; }
+.mv-card p { font-size: .9rem; color: var(--gris-text); line-height: 1.85; }
+
+.valores-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem; margin-top: 2.5rem; }
+.valor-card { padding: 1.75rem; border: 1px solid var(--gris-line); border-radius: var(--radius); }
+.valor-card h4 { font-size: 1rem; font-weight: 600; margin-bottom: .5rem; color: var(--azul); }
+.valor-card p { font-size: .84rem; color: var(--gris-text); line-height: 1.75; }
+
+.equipo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2.5rem; }
+.equipo-card {
+  display: grid; grid-template-columns: 120px 1fr; gap: 1.75rem;
+  background: var(--blanco); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); padding: 2rem; align-items: start;
+}
+.equipo-foto { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; background: var(--gris-bg); }
+.equipo-info h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: .2rem; }
+.equipo-rol { font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--azul); margin-bottom: .75rem; display: block; }
+.equipo-info p { font-size: .84rem; color: var(--gris-text); line-height: 1.75; }
+
+/* ── SERVICIOS ── */
+.servicio-bloque { padding: 6rem 0; }
+.servicio-bloque:nth-child(even) { background: var(--gris-bg); }
+.servicio-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+.servicio-icon-big {
+  width: 56px; height: 56px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.servicio-icon-big.blue    { background: var(--azul-light); color: var(--azul); }
+.servicio-icon-big.magenta { background: var(--magenta-light); color: var(--magenta); }
+.servicio-icon-big.green   { background: var(--verde-light); color: var(--verde); }
+.servicio-icon-big.bluedark{ background: #EEF2FA; color: #3264AF; }
+.servicio-icon-big.yellow  { background: #FEF9E0; color: #C09800; }
+
+.servicio-tag {
+  font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  padding: .2rem .75rem; border-radius: 20px;
+}
+.servicio-tag.blue    { background: var(--azul-light); color: var(--azul); }
+.servicio-tag.magenta { background: var(--magenta-light); color: var(--magenta); }
+.servicio-tag.green   { background: var(--verde-light); color: var(--verde); }
+.servicio-tag.bluedark{ background: #EEF2FA; color: #3264AF; }
+.servicio-tag.yellow  { background: #FEF9E0; color: #C09800; }
+
+.servicio-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin: 2rem 0; }
+.servicio-item {
+  background: var(--blanco); border-radius: var(--radius);
+  padding: 1.25rem 1.5rem; border-left: 3px solid var(--azul);
+  font-size: .88rem; color: var(--gris-text); line-height: 1.65;
+}
+.servicio-item.magenta { border-left-color: var(--magenta); }
+.servicio-item.green   { border-left-color: var(--verde); }
+.servicio-item.bluedark{ border-left-color: #3264AF; }
+.servicio-item.yellow  { border-left-color: #C09800; }
+.servicio-bloque:nth-child(even) .servicio-item { background: var(--blanco); }
+
+/* ── PROYECTOS (página completa) ── */
+.proyecto-section { padding: 6rem 0; }
+.proyecto-section:nth-child(even) { background: var(--gris-bg); }
+.proyecto-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.proyecto-img-block {
+  min-height: 360px; border-radius: var(--radius);
+  display: flex; flex-direction: column; justify-content: flex-end;
+  padding: 2.5rem; position: relative; overflow: hidden;
+}
+.proyecto-num {
+  font-family: var(--font-display); font-size: 8rem; font-weight: 600;
+  color: rgba(255,255,255,.07); position: absolute; top: 0; right: 1rem; line-height: 1;
+}
+.proyecto-label { font-size: .65rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-bottom: .4rem; position: relative; z-index: 1; }
+.proyecto-img-title { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--blanco); line-height: 1.15; position: relative; z-index: 1; }
+.proyecto-img-title em { font-style: italic; font-weight: 400; color: rgba(255,255,255,.7); }
+
+/* Participar cards */
+.participar-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2.5rem; }
+.participar-card {
+  background: var(--gris-bg); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); padding: 2rem; display: flex; flex-direction: column;
+}
+.participar-card h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: .75rem; }
+.participar-card p  { font-size: .88rem; color: var(--gris-text); line-height: 1.8; margin-bottom: 1.5rem; flex: 1; }
+
+/* ── EBOOKS ── */
+.ebooks-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
+.ebook-card {
+  background: var(--blanco); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); padding: 2rem; display: flex; flex-direction: column; gap: 1rem;
+  box-shadow: var(--shadow); transition: transform .2s, box-shadow .2s;
+}
+.ebook-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.ebook-cover {
+  height: 180px; border-radius: var(--radius); display: flex; align-items: center;
+  justify-content: center; position: relative; overflow: hidden;
+}
+.ebook-badge { position: absolute; top: .75rem; right: .75rem; background: var(--azul); color: var(--blanco); font-size: .65rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; padding: .2rem .6rem; border-radius: 12px; }
+.ebook-card h3 { font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
+.ebook-card p  { font-size: .86rem; color: var(--gris-text); line-height: 1.75; flex: 1; }
+.ebook-price  { font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; color: var(--azul); }
+.ebook-price span { font-size: .9rem; font-weight: 400; color: var(--gris-text); }
+.ebook-btns { display: flex; flex-direction: column; gap: .5rem; margin-top: auto; }
+.ebook-btn {
+  display: flex; align-items: center; justify-content: center; gap: .5rem;
+  background: var(--azul); color: var(--blanco);
+  padding: .7rem 1.25rem; border-radius: var(--radius);
+  font-size: .78rem; font-weight: 600; letter-spacing: .06em;
+  text-transform: uppercase; text-decoration: none; transition: background .2s;
+}
+.ebook-btn:hover { background: var(--azul-dark); }
+.ebook-btn.secondary { background: var(--gris-bg); color: var(--negro); border: 1px solid var(--gris-line); }
+.ebook-btn.secondary:hover { background: var(--gris-line); }
+
+.recursos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-top: 2rem; }
+.recurso-card {
+  background: var(--blanco); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); padding: 1.75rem; display: flex; flex-direction: column; gap: .75rem;
+}
+.recurso-free { font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--verde); }
+.recurso-card h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.25; }
+.recurso-card p  { font-size: .86rem; color: var(--gris-text); line-height: 1.75; flex: 1; }
+
+/* ── MEMBRESÍA ── */
+.beneficios-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
+.ben-card {
+  display: flex; gap: 1rem; background: var(--blanco);
+  border: 1px solid var(--gris-line); border-radius: var(--radius); padding: 1.5rem;
+}
+.ben-num {
+  font-family: var(--font-display); font-size: 1.5rem; font-weight: 600;
+  color: var(--azul); opacity: .35; flex-shrink: 0; width: 2rem;
+}
+.ben-titulo { font-size: .88rem; font-weight: 600; color: var(--negro); margin-bottom: .25rem; }
+.ben-desc   { font-size: .82rem; color: var(--gris-text); line-height: 1.7; }
+
+/* ── KLINÉ ── */
+.kline-features { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
+.kf-item { display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; border: 1px solid var(--gris-line); border-radius: var(--radius); }
+.kf-icon { width: 40px; height: 40px; border-radius: 50%; background: var(--azul-light); color: var(--azul); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.kf-titulo { font-size: .88rem; font-weight: 600; color: var(--negro); margin-bottom: .2rem; }
+.kf-desc   { font-size: .82rem; color: var(--gris-text); line-height: 1.65; }
+
+.kline-plans { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem; margin-top: 2.5rem; }
+.kplan-card {
+  background: var(--blanco); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); padding: 2rem; display: flex; flex-direction: column; gap: .75rem;
+}
+.kplan-card.featured { background: var(--azul); border-color: var(--azul); }
+.kplan-tier { font-size: .68rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--azul); }
+.kplan-card.featured .kplan-tier { color: rgba(255,255,255,.7); }
+.kplan-price { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--negro); }
+.kplan-card.featured .kplan-price { color: var(--blanco); }
+.kplan-price span { font-size: .9rem; font-weight: 400; color: var(--gris-text); }
+.kplan-card.featured .kplan-price span { color: rgba(255,255,255,.6); }
+.kplan-users { font-size: .8rem; color: var(--gris-text); border-top: 1px solid var(--gris-line); padding-top: .75rem; }
+.kplan-card.featured .kplan-users { color: rgba(255,255,255,.7); border-color: rgba(255,255,255,.15); }
+.kplan-features { list-style: none; flex: 1; }
+.kplan-features li { font-size: .8rem; color: var(--gris-text); padding: .4rem 0; border-bottom: 1px solid var(--gris-line); display: flex; gap: .5rem; }
+.kplan-features li::before { content: '—'; color: var(--azul); flex-shrink: 0; }
+.kplan-card.featured .kplan-features li { color: rgba(255,255,255,.8); border-color: rgba(255,255,255,.1); }
+.kplan-card.featured .kplan-features li::before { color: rgba(255,255,255,.5); }
+
+/* ── CONTACTO ── */
+.contacto-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-top: 3rem; }
+.form-group { margin-bottom: 1.25rem; }
+.form-group label { display: block; font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--negro); margin-bottom: .5rem; }
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%; padding: .75rem 1rem;
+  font-family: var(--font-body); font-size: .88rem; color: var(--negro);
+  background: var(--blanco); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); outline: none; transition: border-color .2s;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus { border-color: var(--azul); }
+.form-group textarea { resize: vertical; min-height: 120px; }
+.contacto-info h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 1.5rem; }
+.contacto-dato { display: flex; flex-direction: column; gap: .25rem; margin-bottom: 1.5rem; }
+.contacto-dato span { font-size: .7rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--azul); }
+.contacto-dato a, .contacto-dato p { font-size: .9rem; color: var(--gris-text); text-decoration: none; transition: color .2s; }
+.contacto-dato a:hover { color: var(--negro); }
+
+/* ── BLOG ── */
+.blog-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin-top: 2rem; }
+.blog-card {
+  background: var(--blanco); border: 1px solid var(--gris-line);
+  border-radius: var(--radius); overflow: hidden;
+  transition: box-shadow .2s, transform .2s;
+}
+.blog-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.blog-cover { height: 160px; background: var(--gris-bg); display: flex; align-items: center; justify-content: center; }
+.blog-body { padding: 1.5rem; display: flex; flex-direction: column; gap: .6rem; }
+.blog-cat { font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--azul); }
+.blog-card h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.3; }
+.blog-card p { font-size: .84rem; color: var(--gris-text); line-height: 1.7; }
+.blog-date { font-size: .76rem; color: var(--gris-text); margin-top: auto; }
+
+/* ── MOBILE ── */
+@media (max-width: 900px) {
+  .grid-2, .equipo-grid, .mv-grid, .test-header, .proyecto-grid,
+  .contacto-grid, .kline-features { grid-template-columns: 1fr; gap: 2.5rem; }
+  .services-grid, .valores-grid, .kline-plans { grid-template-columns: 1fr 1fr; }
+  .service-card:nth-child(5) { grid-column: auto; }
+  .projects-grid, .ebooks-grid, .blog-grid { grid-template-columns: 1fr 1fr; }
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .beneficios-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .nav-links { display: none; }
+  .nav-toggle { display: flex; }
+  .nav-links.open {
+    display: flex; flex-direction: column;
+    position: fixed; top: 68px; left: 0; right: 0;
+    background: var(--blanco); padding: 1.5rem 1.5rem 2rem;
+    gap: 1.25rem; border-bottom: 1px solid var(--gris-line);
+    box-shadow: var(--shadow-md);
+  }
+  .nav-links.open a { font-size: .95rem; }
+  .hero { min-height: auto; padding: 7rem 0 0; }
+  .hero-actions { flex-direction: column; }
+  .services-grid, .valores-grid, .kline-plans,
+  .projects-grid, .ebooks-grid, .blog-grid,
+  .recursos-grid, .participar-grid { grid-template-columns: 1fr; }
+  .service-card:nth-child(5) { grid-column: auto; }
+  .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+  .section-header.space { flex-direction: column; align-items: flex-start; gap: 1.25rem; }
+  .test-page { grid-template-columns: 1fr; }
+  .equipo-card { grid-template-columns: 1fr; }
+  .equipo-foto { width: 80px; height: 80px; }
+}
+
+User-agent: *
+Allow: /
+
+Sitemap: https://prosercps.org/sitemap.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://prosercps.org/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://prosercps.org/sobre/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prosercps.org/servicios/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://prosercps.org/proyectos/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prosercps.org/ebooks/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prosercps.org/membresia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prosercps.org/kline/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prosercps.org/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prosercps.org/contacto/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prosercps.org/privacidad/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>
