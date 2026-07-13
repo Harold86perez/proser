@@ -1,40 +1,97 @@
-# prosercps.org — Reglas del proyecto
+# prosercps.org — CLAUDE.md
+
+> **Regla de oro:** este archivo solo contiene identidad, axiomas y arquitectura — cosas que casi nunca cambian.
+> El avance del día a día, las decisiones de cada tarea y las bitácoras de implementación van en [`fases_plan/`](fases_plan/), nunca aquí.
+> Si algo que ibas a escribir aquí describe "lo que se hizo esta semana" en vez de "lo que el proyecto es", va en `fases_plan/`, no en este archivo.
+
+## Identidad
+
+- **Proyecto:** ProSer — sitio web institucional en prosercps.org
+- **Propietario:** Harold Pérez
+- **Cómo explicar cosas técnicas:** Harold no es programador. Explicaciones en español claro, sin tecnicismos innecesarios y sin condescendencia — se le habla como a un adulto capaz que simplemente no ha necesitado aprender jerga de desarrollo, no como a alguien que no entiende.
 
 ## Stack
-HTML/CSS puro (sin frameworks) · GitHub (Harold86perez/proser, rama main) · Cloudflare Pages (auto-deploy desde GitHub) · DNS en Cloudflare
 
-## Identidad visual
-- Azul primario: #1478B4
-- Magenta: #AF327D
-- Verde: #4B964B
-- Amarillo: #F4CD2A
-- Banda multicolor como divisor de secciones (elemento de marca distintivo)
-- Tipografía: Cormorant Garamond (display) + Inter (body)
+HTML/CSS puro (sin frameworks, sin build tools, sin package.json) · GitHub (`Harold86perez/proser`, rama `main`) · Cloudflare Pages (auto-deploy desde GitHub) · DNS en Cloudflare
 
-## Reglas específicas de prosercps.org
-- El footer siempre debe ser blanco, nunca oscuro
-- El logo siempre va sobre fondo blanco/claro
-- YouTube reemplazado por LinkedIn en todos los footers
+## Axiomas irrompibles (seguridad/negocio)
 
-## Reglas de contenido (aplicar siempre, iguales a haroldperez.com)
-- Nunca usar "corporación" — siempre solo "ProSer" (ProSer es una marca, no una entidad legal, no tiene NIT)
-- No emojis en ninguna parte del sitio
-- WhatsApp: mensajes pre-llenados nunca incluyen "Harold" por nombre
-- Reemplazar "24 horas" → "lo antes posible"
-- Reemplazar "toda Colombia" → "cualquier parte del mundo"
-- Reemplazar "Con base en Pereira" → "Ubicado en Pereira, Risaralda"
-- No usar "conversación de 20 minutos" en CTAs
-- Reemplazar "triple perfil profesional" → "tres líneas de trabajo especializadas"
-- Emails en tags <p> individuales, nunca separados por <br>
-- Orden de correos donde aparezcan: info@haroldperez.com, harold@haroldperez.com, info@prosercps.org
-- Un solo número de WhatsApp/teléfono: 3054303746, sin excepciones
-- En español: siempre usar ambos signos de interrogación (¿...?), sin excepción
+1. **Ningún push a `main` sin confirmación explícita de Harold.** Como cualquier commit a `main` se publica automáticamente en el sitio real vía Cloudflare Pages, siempre se muestran los cambios y se espera un "sí" claro de Harold antes de hacer `git push`.
+2. **Los datos de contacto deben estar sincronizados en todas las páginas, sin excepción.** Este sitio no tiene una fuente centralizada de datos (es HTML puro, cada página es un archivo independiente), así que cada vez que cambie un email, el WhatsApp o el teléfono, hay que buscarlo y reemplazarlo en TODAS las páginas — no puede quedar ninguna con el dato viejo.
+3. **El CSS de marca no se toca sin aprobación explícita.** Colores (#1478B4, #AF327D, #4B964B, #F4CD2A), tipografías (Cormorant Garamond + Inter) y la banda multicolor como divisor de secciones son fijos. Cualquier cambio de identidad visual requiere que Harold lo apruebe primero.
+
+## Axiomas de ingeniería (convenciones de código)
+
+- El footer siempre debe ser blanco, nunca oscuro.
+- El logo siempre va sobre fondo blanco/claro.
+- YouTube reemplazado por LinkedIn en todos los footers.
+- Nunca usar "corporación" — siempre solo "ProSer" (ProSer es una marca, no una entidad legal, no tiene NIT).
+- No emojis en ninguna parte del sitio.
+- WhatsApp: mensajes pre-llenados nunca incluyen "Harold" por nombre.
+- Reemplazar "24 horas" → "lo antes posible".
+- Reemplazar "toda Colombia" → "cualquier parte del mundo".
+- Reemplazar "Con base en Pereira" → "Ubicado en Pereira, Risaralda".
+- No usar "conversación de 20 minutos" en CTAs.
+- Reemplazar "triple perfil profesional" → "tres líneas de trabajo especializadas".
+- Emails en tags `<p>` individuales, nunca separados por `<br>`.
+- Orden de correos donde aparezcan: info@haroldperez.com, harold@haroldperez.com, info@prosercps.org.
+- Un solo número de WhatsApp/teléfono: 3054303746, sin excepciones.
+- En español: siempre usar ambos signos de interrogación (¿...?), sin excepción.
 
 ## Contacto
+
 info@prosercps.org · info@haroldperez.com · harold@haroldperez.com
 WhatsApp: +57 305 430 3746
 Instagram: @prosercps
 LinkedIn: linkedin.com/in/harold86perez
 
+## Mapa de arquitectura de carpetas
+
+Cada carpeta es una página del sitio, con su propio `index.html` (no hay routing ni plantillas compartidas — cada archivo es independiente):
+
+| Carpeta/archivo | Página |
+|---|---|
+| `index.html` | Inicio |
+| `sobre/` | Sobre ProSer |
+| `servicios/` | Servicios |
+| `proyectos/` | Proyectos |
+| `blog/` | Blog |
+| `ebooks/` | Ebooks |
+| `membresia/` | Membresía |
+| `kline/` | Kline (página específica de proyecto/cliente) |
+| `links/` | Página de enlaces |
+| `contacto/` | Contacto |
+| `privacidad/` | Política de privacidad |
+| `style.css` | Hoja de estilos global, compartida por todas las páginas |
+| `logo-*.jpg/png`, `foto-*.jpg` | Imágenes de marca, equipo y logos de clientes/aliados |
+| `favicon*.png/svg` | Íconos del sitio |
+| `robots.txt`, `sitemap.xml` | SEO técnico |
+
+## Protocolo de trabajo con `fases_plan/`
+
+- **Abrir una fase:** antes de empezar algo nuevo (una función, una página, un cambio grande), se crea un archivo `fases_plan/P-XX_nombre-corto.md` copiando la plantilla de [`fases_plan/P-01_ejemplo.md`](fases_plan/P-01_ejemplo.md). Se llena "Origen/contexto" y "Decisiones de diseño" antes de tocar código.
+- **Reportar avance:** a medida que se construye, se va llenando la "Bitácora de implementación" de esa fase con fecha y qué se hizo — no hace falta esperar a terminar para escribir ahí.
+- **Cerrar una fase:** se marca su checklist de testing manual, se actualiza su estado en la tabla de roadmap de este archivo (✅/🟡/⏳), y solo entonces se hace commit/push (con confirmación de Harold, según el axioma de arriba).
+
+## Roadmap
+
+> Borrador inferido de las carpetas existentes — pendiente de que Harold lo revise y ajuste.
+
+| Fase | Página/función | Estado |
+|---|---|---|
+| P-00 | Inicio (`index.html`) | ✅ hecho |
+| P-00 | Sobre ProSer (`sobre/`) | ✅ hecho |
+| P-00 | Servicios (`servicios/`) | ✅ hecho |
+| P-00 | Proyectos (`proyectos/`) | ✅ hecho |
+| P-00 | Blog (`blog/`) | ✅ hecho |
+| P-00 | Ebooks (`ebooks/`) | ✅ hecho |
+| P-00 | Membresía (`membresia/`) | ✅ hecho |
+| P-00 | Kline (`kline/`) | ✅ hecho |
+| P-00 | Links (`links/`) | ✅ hecho |
+| P-00 | Contacto (`contacto/`) | ✅ hecho |
+| P-00 | Privacidad (`privacidad/`) | ✅ hecho |
+| P-01 | Documentación del proyecto (CLAUDE.md + fases_plan/) | 🟡 en curso |
+
 ## Deploy
-Cualquier commit a la rama main despliega automáticamente en Cloudflare Pages. Siempre hacer commit y push después de confirmar los cambios con Harold.
+
+Cualquier commit a la rama `main` despliega automáticamente en Cloudflare Pages. Siempre hacer commit y push después de confirmar los cambios con Harold.
