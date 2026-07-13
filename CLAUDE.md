@@ -78,6 +78,7 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 | `favicon*.png/svg` | Íconos del sitio |
 | `robots.txt`, `sitemap.xml` | SEO técnico |
 | `worker-formularios/` | Cloudflare Worker (`prosercps-formulario`) que recibe el POST del formulario de `contacto/` y lo envía por correo a info@prosercps.org vía Resend (cuenta separada de la de haroldperez.com). Se despliega con `npx wrangler deploy` desde esa carpeta — no se auto-despliega con el push del sitio. |
+| `_headers` | Configuración de cabeceras HTTP de Cloudflare Pages — baja el caché de `style.css`/`scroll-reveal.js` a 60s para que los cambios se vean rápido en el navegador de los visitantes mientras se itera sobre el diseño. |
 
 ## Protocolo de trabajo con `fases_plan/`
 
@@ -87,8 +88,6 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 - **Cerrar una fase:** se marca su checklist de testing manual, se actualiza su estado en la tabla de roadmap de este archivo (✅/🟡/⏳) y en `BACKLOG.md` si aplicaba a algún pendiente, y solo entonces se hace commit/push (con confirmación de Harold, según el axioma de arriba).
 
 ## Roadmap
-
-> Borrador inferido de las carpetas existentes — pendiente de que Harold lo revise y ajuste.
 
 | Fase | Página/función | Estado |
 |---|---|---|
@@ -103,7 +102,15 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 | P-00 | Links (`links/`) | ✅ hecho |
 | P-00 | Contacto (`contacto/`) | ✅ hecho |
 | P-00 | Privacidad (`privacidad/`) | ✅ hecho |
-| P-01 | Documentación del proyecto (CLAUDE.md + fases_plan/) | 🟡 en curso |
+| P-01 | Documentación del proyecto (CLAUDE.md + fases_plan/) | ✅ hecho |
+| P-02 | Auditoría técnica completa del sitio (SEO, accesibilidad, rendimiento, cumplimiento de reglas de marca) | ✅ hecho |
+| P-03 | Formulario de contacto funcional (Cloudflare Worker + Resend, con anti-spam) | ✅ hecho |
+| P-04 | Conexión de Cloudflare Pages a GitHub (despliegue automático real) | ✅ hecho |
+| P-05 | Rediseño visual: tarjetas diferenciadas, tipografía de marca protagonista, franja multicolor con más presencia, layouts asimétricos, hero reforzado, micro-interacciones (scroll-reveal + spotlight), secciones con corte diagonal y textura | ✅ hecho |
+| P-06 | Corrección de colores oficiales de marca (hex exactos por línea de servicio) en todo el sitio | ✅ hecho |
+| P-07 | Optimización de vista móvil (scroll horizontal en varias páginas, foto de hero oculta) | ✅ hecho |
+| P-08 | SEO local/regional/internacional: datos estructurados schema.org, meta descriptions, textos visibles con las 3 capas geográficas, sitemap enviado a Search Console | ✅ hecho |
+| P-09 | Google Business Profile optimizado (categorías, área de servicio) | ✅ hecho (por Harold) |
 
 ## Deploy
 
