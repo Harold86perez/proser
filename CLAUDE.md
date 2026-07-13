@@ -16,7 +16,7 @@ HTML/CSS puro (sin frameworks, sin build tools, sin package.json) · GitHub (`Ha
 
 ## Axiomas irrompibles (seguridad/negocio)
 
-1. **Ningún push a `main` sin confirmación explícita de Harold.** Como cualquier commit a `main` se publica automáticamente en el sitio real vía Cloudflare Pages, siempre se muestran los cambios y se espera un "sí" claro de Harold antes de hacer `git push`.
+1. **Confirmación antes de push solo para propuestas propias.** Si Harold pidió explícitamente la tarea, se hace commit y push directo al terminarla, sin pedir confirmación adicional. Si la propuesta de cambio surge por iniciativa propia (ej. una mejora, un ajuste no solicitado), se muestra el cambio y se espera un "sí" claro de Harold antes de hacer `git push`, porque cualquier commit a `main` se publica automáticamente en el sitio real vía Cloudflare Pages.
 2. **Los datos de contacto deben estar sincronizados en todas las páginas, sin excepción.** Este sitio no tiene una fuente centralizada de datos (es HTML puro, cada página es un archivo independiente), así que cada vez que cambie un email, el WhatsApp o el teléfono, hay que buscarlo y reemplazarlo en TODAS las páginas — no puede quedar ninguna con el dato viejo.
 3. **El CSS de marca no se toca sin aprobación explícita.** Colores (#1478B4, #AF327D, #4B964B, #F4CD2A), tipografías (Cormorant Garamond + Inter) y la banda multicolor como divisor de secciones son fijos. Cualquier cambio de identidad visual requiere que Harold lo apruebe primero.
 
@@ -69,9 +69,10 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 
 ## Protocolo de trabajo con `fases_plan/`
 
+- **Pendientes sueltos:** [`fases_plan/BACKLOG.md`](fases_plan/BACKLOG.md) es el checklist vivo de todo lo que falta por hacer (corto/mediano/largo plazo). Se actualiza apenas surge un pendiente nuevo, y se marca `[x]` apenas se resuelve — no hace falta abrir una fase formal solo para anotar algo ahí.
 - **Abrir una fase:** antes de empezar algo nuevo (una función, una página, un cambio grande), se crea un archivo `fases_plan/P-XX_nombre-corto.md` copiando la plantilla de [`fases_plan/P-01_ejemplo.md`](fases_plan/P-01_ejemplo.md). Se llena "Origen/contexto" y "Decisiones de diseño" antes de tocar código.
 - **Reportar avance:** a medida que se construye, se va llenando la "Bitácora de implementación" de esa fase con fecha y qué se hizo — no hace falta esperar a terminar para escribir ahí.
-- **Cerrar una fase:** se marca su checklist de testing manual, se actualiza su estado en la tabla de roadmap de este archivo (✅/🟡/⏳), y solo entonces se hace commit/push (con confirmación de Harold, según el axioma de arriba).
+- **Cerrar una fase:** se marca su checklist de testing manual, se actualiza su estado en la tabla de roadmap de este archivo (✅/🟡/⏳) y en `BACKLOG.md` si aplicaba a algún pendiente, y solo entonces se hace commit/push (con confirmación de Harold, según el axioma de arriba).
 
 ## Roadmap
 
