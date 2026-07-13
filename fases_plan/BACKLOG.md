@@ -8,7 +8,7 @@
 - [x] YouTube sigue apareciendo en `contacto/index.html` — reemplazado por LinkedIn
 - [x] `privacidad/index.html` usaba `<br>` para separar email/teléfono/dirección — ahora son `<p>` individuales
 - [x] El proyecto de Cloudflare Pages no estaba conectado a GitHub (era de "carga directa", último deploy manual del 7 de julio) — ningún commit se publicaba solo. Se conectó a `Harold86perez/proser` rama `main` con implementaciones automáticas habilitadas.
-- [ ] Falta el enlace "Blog" en el menú de `index.html` (portada)
+- [x] El menú de navegación no era igual en todas las páginas — a `index.html` le faltaba "Blog", y a `blog/index.html` y `ebooks/index.html` les faltaban "Membresía" y "Kliné". Ya son idénticos en las 11 páginas.
 - [ ] Borrar la carpeta vacía con nombre raro en la raíz (`{sobre,servicios,...}`), residuo de un comando mal ejecutado
 
 ## 🟡 Mediano plazo
@@ -34,6 +34,8 @@
 - [x] El hero de la portada ya tenía foto del equipo, pero se sentía plano — ahora tiene manchas de color difuminadas de fondo, un acento de franja multicolor y una insignia flotante ("+10 años") superpuesta sobre la imagen
 - [x] Casi no había micro-interacciones — se agregó `scroll-reveal.js` (nuevo archivo compartido) con animación de aparición al hacer scroll, y un efecto "spotlight" que sigue el cursor al pasar sobre tarjetas de servicios/ebooks/proyectos/blog
 - [x] Secciones sin textura ni corte — el CTA final ahora tiene bordes en diagonal (no rectángulo recto) y una mancha de luz de fondo; la sección de testimonios tiene una comilla gigante decorativa de fondo
+- [x] Varios detalles (franja detrás de clientes, manchas del hero, tonalidades grises de tarjetas) eran casi imperceptibles — se subió la opacidad de todos y se oscureció un poco el gris de fondo/bordes (`--gris-bg`, `--gris-line`) para que se noten mejor, sobre todo en celular
+- [x] La franja superior (hero) de cada página no coincidía con el color de su CTA final — ahora cada página usa un solo color consistente arriba y abajo, según la línea de servicio que representa (ver axioma 4 del CLAUDE.md): Servicios=azul, Proyectos=verde, Ebooks=magenta, Sobre=petróleo, Blog=petróleo (contenido mixto), Kliné ya estaba consistente en negro
 - [ ] Falta un momento tipográfico gigante de marca (una frase corta en tamaño enorme, ej. "Promover el Ser" ocupando casi todo el ancho de pantalla, una sola vez en el sitio)
 - [ ] Ilustraciones propias en vez de íconos de trazo genérico (encargar o generar 4-5 ilustraciones lineales de bienestar/psicología para reemplazar los íconos de Servicios)
 - [ ] Una sección "historia destacada" con formato distinto a todo lo demás (un proyecto social con foto grande de fondo y texto superpuesto, sin tarjetas ni columnas)
