@@ -44,9 +44,16 @@
 - [ ] Una sección "historia destacada" con formato distinto a todo lo demás (un proyecto social con foto grande de fondo y texto superpuesto, sin tarjetas ni columnas)
 - [ ] Cuadrículas tipo "bento" en vez de columnas iguales (un servicio o proyecto insignia ocupa más espacio que los demás, en vez de que todas las celdas midan lo mismo)
 
-## 🟢 Largo plazo
+## 🔍 SEO local, regional e internacional
 
-- [ ] Agregar datos estructurados (schema.org "Negocio Local") para mejorar aparición en Google
+- [x] Datos estructurados (schema.org `ProfessionalService`) agregados en las 10 páginas indexables — incluye dirección, teléfono, y `areaServed` con Pereira, Dosquebradas, Santa Rosa de Cabal, Risaralda y Colombia
+- [x] Meta descriptions, keywords y textos visibles (footer, hero, contacto) actualizados en las 10 páginas para mencionar los 3 niveles: local (las 4 ubicaciones), regional (Colombia) e internacional (hispanohablantes en el mundo)
+- [ ] **Pendiente de Harold** — crear/verificar el perfil de Google Business Profile para la ubicación de Pereira, con área de servicio ampliada a Dosquebradas y Santa Rosa de Cabal (esto es lo que más pesa para aparecer en el mapa de Google y en búsquedas tipo "psicólogo cerca de mí")
+- [ ] **Pendiente de Harold** — verificar el sitio en Google Search Console y enviar el `sitemap.xml` (ya existe en la raíz)
+- [ ] **Pendiente de Harold** — mantener el nombre, dirección y teléfono (NAP) exactamente iguales en cualquier directorio externo donde se registre el negocio (Google, redes sociales, directorios colombianos), porque Google penaliza las inconsistencias de NAP
+- [ ] Evaluar más adelante: reseñas de Google (piden activamente a pacientes/clientes satisfechos), y citaciones en directorios locales de Risaralda/Eje Cafetero
+
+## 🟢 Largo plazo
 - [ ] Activar Cloudflare Web Analytics (gratis, sin cookies) para medir visitas
 - [ ] Evaluar migrar de HTML plano a un generador de sitios simple (ej. Astro) para no tener que repetir cambios de contacto/footer en las 11 páginas a mano
 - [ ] Agregar cabeceras de seguridad básicas (CSP, etc.) — ya existe `_headers` en la raíz (creado para bajar el caché de `style.css`/`scroll-reveal.js` a 60s mientras iteramos), se puede extender ahí

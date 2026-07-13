@@ -28,6 +28,7 @@ HTML/CSS puro (sin frameworks, sin build tools, sin package.json) · GitHub (`Ha
    - `--negro-marca` **#0D1117** = Kliné y Recursos/Ebooks (no son una línea de servicio)
    - `--petroleo` **#1A2A3A** = Sobre y Blog (contenido general, no de una sola línea)
    - Membresía combina dos colores (`--azul-empresarial` + `--magenta`) en degradado, porque aplica tanto a empresas como a instituciones educativas.
+5. **El sitio se posiciona en 3 niveles geográficos, y esa cobertura debe mencionarse de forma consistente.** Nivel local: Pereira, Dosquebradas, Santa Rosa de Cabal y Risaralda en general. Nivel regional: Colombia. Nivel internacional: hispanohablantes en cualquier parte del mundo (servicio virtual). Cada vez que se mencione la cobertura geográfica del sitio (meta descriptions, footer, hero, contacto), debe incluir los 3 niveles — no solo Pereira, y no solo "cualquier parte del mundo" sin mencionar lo local/regional primero.
 
 ## Axiomas de ingeniería (convenciones de código)
 
