@@ -2,16 +2,31 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --azul:          #1478B4;
-  --azul-dark:     #0E5A8A;
-  --azul-light:    #E8F4FB;
-  --magenta:       #AF327D;
-  --magenta-light: #F9EDF5;
-  --verde:         #4B964B;
-  --verde-light:   #EDF5ED;
-  --amarillo:      #F4CD2A;
-  --azul-empresarial: #3264AF;
+  /* Clínico / Acompañamiento Terapéutico */
+  --azul:          #38ace4;
+  --azul-dark:     #287ca4;
+  --azul-gradient-end: #194d67;
+  --azul-light:    #e7f5fc;
+  /* Psicopedagógico / Acompañamiento Pedagógico */
+  --magenta:       #c02c7c;
+  --magenta-gradient-end: #7d1d51;
+  --magenta-light: #f9eaf2;
+  /* Consultoría Social Comunitaria */
+  --verde:         #509c44;
+  --verde-gradient-end: #34652c;
+  --verde-light:   #eaf3e9;
+  /* Proyección Social / Proyectos hacia la comunidad */
+  --amarillo:      #f8cc2c;
+  --amarillo-text: #bc9b21;
+  --amarillo-light: #fefbee;
+  /* Consultoría Empresarial */
+  --azul-empresarial: #385cac;
+  --azul-empresarial-gradient-end: #1f335f;
+  --azul-empresarial-light: #ebeff7;
+  /* Páginas generales (no ligadas a una sola línea): Sobre, Blog, Kliné, Membresía */
   --petroleo:      #1A2A3A;
+  --negro-marca:   #0D1117;
+
   --gris-bg:       #F1F4F9;
   --gris-line:     #D8DEE7;
   --gris-text:     #6B7280;
@@ -19,12 +34,11 @@
   --blanco:        #FFFFFF;
 
   --band: linear-gradient(90deg,
-    #AF327D 0% 16.6%,
-    #3264AF 16.6% 33.2%,
-    #36AAD9 33.2% 49.8%,
-    #F4CD2A 49.8% 66.4%,
-    #AFC832 66.4% 83%,
-    #4B964B 83% 100%
+    #c02c7c 0% 20%,
+    #385cac 20% 40%,
+    #38ace4 40% 60%,
+    #f8cc2c 60% 80%,
+    #509c44 80% 100%
   );
 
   --font-display: 'Cormorant Garamond', Georgia, serif;
@@ -296,12 +310,12 @@ nav.scrolled { border-color: var(--gris-line); box-shadow: 0 2px 16px rgba(0,0,0
 .service-green { border-top-color: var(--verde); }
 .service-green .service-icon { background: var(--verde-light); color: var(--verde); }
 .service-green .service-link { color: var(--verde); }
-.service-bluedark { border-top-color: #3264AF; }
-.service-bluedark .service-icon { background: #EEF2FA; color: #3264AF; }
-.service-bluedark .service-link { color: #3264AF; }
-.service-yellow { border-top-color: #C09800; }
-.service-yellow .service-icon { background: #FEF9E0; color: #C09800; }
-.service-yellow .service-link { color: #C09800; }
+.service-bluedark { border-top-color: var(--azul-empresarial); }
+.service-bluedark .service-icon { background: var(--azul-empresarial-light); color: var(--azul-empresarial); }
+.service-bluedark .service-link { color: var(--azul-empresarial); }
+.service-yellow { border-top-color: var(--amarillo-text); }
+.service-yellow .service-icon { background: var(--amarillo-light); color: var(--amarillo-text); }
+.service-yellow .service-link { color: var(--amarillo-text); }
 .service-card:nth-child(5) { grid-column: 2; }
 
 .services-cta { margin-top: 3rem; text-align: center; }
@@ -461,6 +475,7 @@ nav.scrolled { border-color: var(--gris-line); box-shadow: 0 2px 16px rgba(0,0,0
 .section-cta.cta-magenta   { background: var(--magenta); }
 .section-cta.cta-verde     { background: var(--verde); }
 .section-cta.cta-petroleo  { background: var(--petroleo); }
+.section-cta.cta-negro     { background: var(--negro-marca); }
 .section-cta.cta-empresarial { background: var(--azul-empresarial); }
 .section-cta.cta-amarillo  { background: var(--amarillo); }
 .section-cta.cta-amarillo .cta-title, .section-cta.cta-amarillo .cta-block p { color: var(--negro); }
@@ -556,8 +571,8 @@ footer {
 .servicio-icon-big.blue    { background: var(--azul-light); color: var(--azul); }
 .servicio-icon-big.magenta { background: var(--magenta-light); color: var(--magenta); }
 .servicio-icon-big.green   { background: var(--verde-light); color: var(--verde); }
-.servicio-icon-big.bluedark{ background: #EEF2FA; color: #3264AF; }
-.servicio-icon-big.yellow  { background: #FEF9E0; color: #C09800; }
+.servicio-icon-big.bluedark{ background: var(--azul-empresarial-light); color: var(--azul-empresarial); }
+.servicio-icon-big.yellow  { background: var(--amarillo-light); color: var(--amarillo-text); }
 
 .servicio-tag {
   font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
@@ -566,8 +581,8 @@ footer {
 .servicio-tag.blue    { background: var(--azul-light); color: var(--azul); }
 .servicio-tag.magenta { background: var(--magenta-light); color: var(--magenta); }
 .servicio-tag.green   { background: var(--verde-light); color: var(--verde); }
-.servicio-tag.bluedark{ background: #EEF2FA; color: #3264AF; }
-.servicio-tag.yellow  { background: #FEF9E0; color: #C09800; }
+.servicio-tag.bluedark{ background: var(--azul-empresarial-light); color: var(--azul-empresarial); }
+.servicio-tag.yellow  { background: var(--amarillo-light); color: var(--amarillo-text); }
 
 .servicio-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin: 2rem 0; }
 .servicio-item {
@@ -577,8 +592,8 @@ footer {
 }
 .servicio-item.magenta { border-left-color: var(--magenta); }
 .servicio-item.green   { border-left-color: var(--verde); }
-.servicio-item.bluedark{ border-left-color: #3264AF; }
-.servicio-item.yellow  { border-left-color: #C09800; }
+.servicio-item.bluedark{ border-left-color: var(--azul-empresarial); }
+.servicio-item.yellow  { border-left-color: var(--amarillo-text); }
 .servicio-bloque:nth-child(even) .servicio-item { background: var(--blanco); }
 
 /* ── PROYECTOS (página completa) ── */
@@ -637,6 +652,8 @@ footer {
 .ebook-btn.secondary:hover { background: var(--gris-line); }
 
 .recursos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-top: 2rem; }
+.recursos-grid-3 { grid-template-columns: repeat(3,1fr); }
+.grid-3-mobile { grid-template-columns: repeat(3,1fr); }
 .recurso-card {
   background: var(--blanco); border: 1px solid var(--gris-line);
   border-radius: var(--radius); padding: 1.75rem; display: flex; flex-direction: column; gap: .75rem;
@@ -748,6 +765,18 @@ footer {
 .page-hero-dark   h1, .page-hero-dark .lead { color: var(--blanco); }
 .page-hero-dark   .lead { color: rgba(255,255,255,.65); }
 
+.page-hero-negro  { background: var(--negro-marca); }
+.page-hero-negro  .eyebrow-blue { color: rgba(255,255,255,.55); }
+.page-hero-negro  h1, .page-hero-negro .lead { color: var(--blanco); }
+.page-hero-negro  .lead { color: rgba(255,255,255,.6); }
+
+/* Membresía: combina Consultoría Empresarial + Acompañamiento Pedagógico */
+.page-hero-duo    { background: linear-gradient(120deg, var(--azul-empresarial) 0%, var(--azul-empresarial) 45%, var(--magenta) 100%); }
+.page-hero-duo     .eyebrow-blue { color: rgba(255,255,255,.7); }
+.page-hero-duo     h1, .page-hero-duo .lead { color: var(--blanco); }
+.page-hero-duo     .lead { color: rgba(255,255,255,.75); }
+.section-cta.cta-duo { background: linear-gradient(120deg, var(--azul-empresarial) 0%, var(--azul-empresarial) 45%, var(--magenta) 100%); }
+
 .page-hero-teal   { background: #36AAD9; }
 .page-hero-teal   .eyebrow-blue { color: rgba(255,255,255,.8); }
 .page-hero-teal   h1, .page-hero-teal .lead { color: var(--blanco); }
@@ -783,7 +812,7 @@ footer {
 @media (max-width: 900px) {
   .grid-2, .equipo-grid, .mv-grid, .test-header, .proyecto-grid,
   .contacto-grid, .kline-features { grid-template-columns: 1fr; gap: 2.5rem; }
-  .services-grid, .valores-grid, .kline-plans { grid-template-columns: 1fr 1fr; }
+  .services-grid, .valores-grid, .kline-plans, .grid-3-mobile { grid-template-columns: 1fr 1fr; }
   .service-card:nth-child(5) { grid-column: auto; }
   .projects-grid, .ebooks-grid, .blog-grid { grid-template-columns: 1fr 1fr; }
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
@@ -820,7 +849,7 @@ footer {
   .hero-actions { flex-direction: column; }
   .services-grid, .valores-grid, .kline-plans,
   .projects-grid, .ebooks-grid, .blog-grid,
-  .recursos-grid, .participar-grid { grid-template-columns: 1fr; }
+  .recursos-grid, .recursos-grid-3, .participar-grid, .grid-3-mobile { grid-template-columns: 1fr; }
   .service-card:nth-child(5) { grid-column: auto; }
   .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; text-align: center; }

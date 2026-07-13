@@ -16,8 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css?v=3">
-  <script src="/scroll-reveal.js?v=3" defer></script>
+  <link rel="stylesheet" href="/style.css?v=4">
+  <script src="/scroll-reveal.js?v=4" defer></script>
 </head>
 <body>
 
@@ -69,8 +69,12 @@
 </section>
 <style>
 @media (max-width:768px) {
-  .hero .container { grid-template-columns:1fr !important; }
-  .hero .container > div:last-child { display:none; }
+  .hero .container { grid-template-columns:1fr !important; min-height:auto !important; padding-top:1rem !important; padding-bottom:2.5rem !important; }
+  .hero .container > div:last-child { margin-top:2.5rem; padding-right:0 !important; }
+}
+@media (max-width:480px) {
+  .hero .container > div:last-child div:last-child { padding:.7rem 1rem !important; }
+  .hero .container > div:last-child span:first-child { font-size:1.35rem !important; }
 }
 </style>
 

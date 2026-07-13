@@ -18,8 +18,16 @@ HTML/CSS puro (sin frameworks, sin build tools, sin package.json) · GitHub (`Ha
 
 1. **Confirmación antes de push solo para propuestas propias.** Si Harold pidió explícitamente la tarea, se hace commit y push directo al terminarla, sin pedir confirmación adicional. Si la propuesta de cambio surge por iniciativa propia (ej. una mejora, un ajuste no solicitado), se muestra el cambio y se espera un "sí" claro de Harold antes de hacer `git push`, porque cualquier commit a `main` se publica automáticamente en el sitio real vía Cloudflare Pages.
 2. **Los datos de contacto deben estar sincronizados en todas las páginas, sin excepción.** Este sitio no tiene una fuente centralizada de datos (es HTML puro, cada página es un archivo independiente), así que cada vez que cambie un email, el WhatsApp o el teléfono, hay que buscarlo y reemplazarlo en TODAS las páginas — no puede quedar ninguna con el dato viejo.
-3. **El CSS de marca no se toca sin aprobación explícita.** Colores (#1478B4, #AF327D, #4B964B, #F4CD2A), tipografías (Cormorant Garamond + Inter) y la banda multicolor como divisor de secciones son fijos. Cualquier cambio de identidad visual requiere que Harold lo apruebe primero.
-4. **Cada línea de servicio tiene un color fijo, y la franja superior (hero) de cada página debe usar el mismo color que su CTA final.** Azul claro (`--azul`) = clínico/terapéutico · Magenta (`--magenta`) = educativo/pedagógico · Verde (`--verde`) = social/proyectos · Azul oscuro (`--azul-empresarial`, #3264AF) = empresarial · Amarillo (`--amarillo`) = proyección social. Páginas que no representan una sola línea (Sobre, Blog, Kliné, Membresía) usan negro o "azul petróleo" (`--petroleo`, #1A2A3A) en vez de alguno de los 5 colores de línea.
+3. **El CSS de marca no se toca sin aprobación explícita.** Colores, tipografías (Cormorant Garamond + Inter) y la banda multicolor como divisor de secciones son fijos. Cualquier cambio de identidad visual requiere que Harold lo apruebe primero.
+4. **Cada línea de servicio tiene un color oficial fijo, y la franja superior (hero) de cada página debe usar el mismo color que su CTA final.** Colores oficiales de marca (confirmados por Harold):
+   - `--azul` **#38ace4** = Acompañamiento Terapéutico (clínico)
+   - `--magenta` **#c02c7c** = Acompañamiento Pedagógico (educativo)
+   - `--verde` **#509c44** = Consultoría Social Comunitaria
+   - `--azul-empresarial` **#385cac** = Consultoría Empresarial
+   - `--amarillo` **#f8cc2c** = Proyección Social / proyectos hacia la comunidad
+   - `--negro-marca` **#0D1117** = Kliné y Recursos/Ebooks (no son una línea de servicio)
+   - `--petroleo` **#1A2A3A** = Sobre y Blog (contenido general, no de una sola línea)
+   - Membresía combina dos colores (`--azul-empresarial` + `--magenta`) en degradado, porque aplica tanto a empresas como a instituciones educativas.
 
 ## Axiomas de ingeniería (convenciones de código)
 
