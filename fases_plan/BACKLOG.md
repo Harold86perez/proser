@@ -7,6 +7,7 @@
 - [x] El formulario de contacto no envía nada — resuelto con un Cloudflare Worker (`worker-formularios/`) que envía por Resend (cuenta nueva y separada de haroldperez.com) a info@prosercps.org, sin tocar el DNS de Zoho. Incluye honeypot anti-spam.
 - [x] YouTube sigue apareciendo en `contacto/index.html` — reemplazado por LinkedIn
 - [x] `privacidad/index.html` usaba `<br>` para separar email/teléfono/dirección — ahora son `<p>` individuales
+- [x] El proyecto de Cloudflare Pages no estaba conectado a GitHub (era de "carga directa", último deploy manual del 7 de julio) — ningún commit se publicaba solo. Se conectó a `Harold86perez/proser` rama `main` con implementaciones automáticas habilitadas.
 - [ ] Falta el enlace "Blog" en el menú de `index.html` (portada)
 - [ ] Borrar la carpeta vacía con nombre raro en la raíz (`{sobre,servicios,...}`), residuo de un comando mal ejecutado
 
@@ -25,7 +26,7 @@
 - [ ] Activar Cloudflare Web Analytics (gratis, sin cookies) para medir visitas
 - [ ] Evaluar migrar de HTML plano a un generador de sitios simple (ej. Astro) para no tener que repetir cambios de contacto/footer en las 11 páginas a mano
 - [ ] Agregar cabeceras de seguridad básicas vía archivo `_headers` de Cloudflare Pages
-- [ ] Protección anti-spam en el formulario de contacto (una vez esté funcionando de verdad)
+- [x] Protección anti-spam en el formulario de contacto — se agregó un campo honeypot oculto en el Worker
 
 ---
 
