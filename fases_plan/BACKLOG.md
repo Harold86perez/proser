@@ -44,7 +44,7 @@
 - [ ] Agregar datos estructurados (schema.org "Negocio Local") para mejorar aparición en Google
 - [ ] Activar Cloudflare Web Analytics (gratis, sin cookies) para medir visitas
 - [ ] Evaluar migrar de HTML plano a un generador de sitios simple (ej. Astro) para no tener que repetir cambios de contacto/footer en las 11 páginas a mano
-- [ ] Agregar cabeceras de seguridad básicas vía archivo `_headers` de Cloudflare Pages
+- [ ] Agregar cabeceras de seguridad básicas (CSP, etc.) — ya existe `_headers` en la raíz (creado para bajar el caché de `style.css`/`scroll-reveal.js` a 60s mientras iteramos), se puede extender ahí
 - [x] Protección anti-spam en el formulario de contacto — se agregó un campo honeypot oculto en el Worker
 
 ---

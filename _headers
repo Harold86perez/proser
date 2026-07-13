@@ -1,0 +1,5 @@
+/style.css
+  Cache-Control: public, max-age=60, must-revalidate
+
+/scroll-reveal.js
+  Cache-Control: public, max-age=60, must-revalidate
