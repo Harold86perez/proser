@@ -4,9 +4,9 @@
 
 ## 🔴 Corto plazo
 
-- [ ] El formulario de contacto no envía nada (`contacto/index.html`) — el JS solo simula éxito, el mensaje nunca llega. Conectar a un servicio real (Formspree, Cloudflare Pages Forms, etc.)
-- [ ] YouTube sigue apareciendo en `contacto/index.html` — reemplazar por LinkedIn como en el resto del sitio
-- [ ] `privacidad/index.html` usa `<br>` para separar email/teléfono/dirección en vez de `<p>` individuales
+- [ ] El formulario de contacto no envía nada (`contacto/index.html`) — el JS solo simula éxito, el mensaje nunca llega. **En pausa:** requiere un Worker propio para enviar el correo sin tocar el DNS de Zoho (donde vive info@prosercps.org); falta decidir el método de envío (ver bitácora de `fases_plan/P-02_formulario-contacto.md` si se abre esa fase).
+- [x] YouTube sigue apareciendo en `contacto/index.html` — reemplazado por LinkedIn
+- [x] `privacidad/index.html` usaba `<br>` para separar email/teléfono/dirección — ahora son `<p>` individuales
 - [ ] Falta el enlace "Blog" en el menú de `index.html` (portada)
 - [ ] Borrar la carpeta vacía con nombre raro en la raíz (`{sobre,servicios,...}`), residuo de un comando mal ejecutado
 
