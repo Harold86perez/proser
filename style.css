@@ -770,6 +770,12 @@ footer {
 .page-hero-negro  h1, .page-hero-negro .lead { color: var(--blanco); }
 .page-hero-negro  .lead { color: rgba(255,255,255,.6); }
 
+.page-hero-amarillo { background: var(--amarillo); }
+.page-hero-amarillo .eyebrow-blue { color: rgba(26,26,26,.6); }
+.page-hero-amarillo h1, .page-hero-amarillo .lead { color: var(--negro); }
+.page-hero-amarillo .lead { color: rgba(26,26,26,.7); }
+.page-hero-amarillo h1 em { color: var(--azul-empresarial); }
+
 /* Membresía: combina Consultoría Empresarial + Acompañamiento Pedagógico */
 .page-hero-duo    { background: linear-gradient(120deg, var(--azul-empresarial) 0%, var(--azul-empresarial) 45%, var(--magenta) 100%); }
 .page-hero-duo     .eyebrow-blue { color: rgba(255,255,255,.7); }
