@@ -90,7 +90,7 @@ img { max-width: 100%; display: block; }
 .color-band { height: 5px; background: var(--band); width: 100%; }
 .color-band-divider { height: 4px; background: var(--band); width: 100%; }
 
-.rule-blue { width: 40px; height: 2px; background: var(--azul); margin: 1.25rem 0 1.5rem; }
+.rule-blue { width: 56px; height: 3px; background: var(--band); border-radius: 2px; margin: 1.25rem 0 1.5rem; }
 
 /* ── BOTONES ── */
 .btn-primary {
@@ -218,13 +218,15 @@ nav.scrolled { border-color: var(--gris-line); box-shadow: 0 2px 16px rgba(0,0,0
 
 /* ── SECTION ABOUT ── */
 .section-about { padding: 6rem 0; }
-.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+.grid-2 { display: grid; grid-template-columns: 1.12fr .88fr; gap: 5rem; align-items: center; }
 .about-text .section-title { font-size: clamp(1.8rem, 3vw, 2.6rem); margin-bottom: .5rem; }
 .about-text p { color: var(--gris-text); margin-bottom: 1.25rem; font-size: .94rem; }
 .about-text strong { color: var(--negro); }
-.about-logo-block { display: flex; flex-direction: column; gap: 2rem; align-items: center; }
+.about-logo-block { display: flex; flex-direction: column; gap: 2rem; align-items: center; margin-top: 2.5rem; }
 .about-logo { max-width: 260px; width: 100%; }
 .about-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; width: 100%; }
+.about-stat-grid .stat-card:nth-child(2) { margin-top: 1.5rem; }
+.about-stat-grid .stat-card:nth-child(4) { margin-top: 1.5rem; }
 .stat-card {
   background: var(--gris-bg); border-radius: var(--radius);
   padding: 1.25rem; display: flex; flex-direction: column; gap: .25rem;
@@ -286,7 +288,20 @@ nav.scrolled { border-color: var(--gris-line); box-shadow: 0 2px 16px rgba(0,0,0
 .services-cta { margin-top: 3rem; text-align: center; }
 
 /* ── CLIENTS TICKER ── */
-.section-clients { padding: 5rem 0; }
+.section-clients {
+  padding: 5rem 0;
+  background: var(--blanco);
+  position: relative;
+  overflow: hidden;
+}
+.section-clients::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 100%;
+  background: var(--band);
+  opacity: .05;
+  pointer-events: none;
+}
+.section-clients .container { position: relative; z-index: 1; }
 .clients-ticker-wrap {
   overflow: hidden;
   position: relative;
@@ -453,7 +468,9 @@ footer {
 /* ── SOBRE ── */
 .mision-vision { padding: 6rem 0; background: var(--gris-bg); }
 .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
-.mv-card { background: var(--blanco); border-radius: var(--radius); padding: 2.5rem; border-top: 4px solid var(--azul); }
+.mv-card { background: var(--blanco); border-radius: var(--radius); padding: 2.5rem; border-top: 4px solid var(--azul); transition: transform .25s; }
+.mv-card.magenta { margin-top: 2.5rem; }
+@media (min-width: 901px) { .mv-card:hover { transform: translateY(-4px); } }
 .mv-card.magenta { border-top-color: var(--magenta); }
 .mv-label { font-size: .68rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--azul); margin-bottom: .75rem; display: block; }
 .mv-card.magenta .mv-label { color: var(--magenta); }
@@ -687,6 +704,17 @@ footer {
 .page-hero-teal   h1, .page-hero-teal .lead { color: var(--blanco); }
 .page-hero-teal   .lead { color: rgba(255,255,255,.8); }
 
+/* ── MICRO-INTERACCIONES: REVELADO AL HACER SCROLL ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1);
+}
+.reveal.visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
 /* ── MOBILE ── */
 @media (max-width: 900px) {
   .grid-2, .equipo-grid, .mv-grid, .test-header, .proyecto-grid,
@@ -696,6 +724,7 @@ footer {
   .projects-grid, .ebooks-grid, .blog-grid { grid-template-columns: 1fr 1fr; }
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
   .beneficios-grid { grid-template-columns: 1fr; }
+  .mv-card.magenta, .about-stat-grid .stat-card:nth-child(2), .about-stat-grid .stat-card:nth-child(4) { margin-top: 0; }
 }
 
 /* Nav hamburger activo desde 1024px para que 7 items siempre quepan */

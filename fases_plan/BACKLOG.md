@@ -29,10 +29,10 @@
 - [x] Poco contraste de tamaño entre textos — títulos de sección y del CTA final agrandados
 - [ ] Las fotos reales (equipo, testimonios) no tienen tratamiento de color de marca
 - [x] No había iconografía propia — los íconos de servicios/Kliné ahora tienen forma orgánica (no círculo genérico) con animación sutil al pasar el mouse
-- [ ] La franja multicolor de marca se usa poco, solo como línea divisoria delgada
-- [ ] Layouts muy simétricos y predecibles (todo en grid de 2-3 columnas iguales)
-- [ ] El hero de la portada es solo texto + botones, sin imagen o elemento visual fuerte
-- [ ] Casi no hay micro-interacciones (animaciones de entrada al hacer scroll, etc.)
+- [x] La franja multicolor de marca se usaba poco — ahora colorea el `rule-blue` (divisor pequeño usado en 5 páginas), tiene un fondo tenue detrás de "Aliados y clientes" en portada, y protagoniza el acento del hero
+- [x] Layouts muy simétricos — columnas de texto/imagen ahora asimétricas (`grid-2` 1.12fr/.88fr), tarjetas de estadísticas y Misión/Visión escalonadas verticalmente en vez de alineadas en cuadrícula perfecta
+- [x] El hero de la portada ya tenía foto del equipo, pero se sentía plano — ahora tiene un acento de franja multicolor detrás y una insignia flotante ("+10 años") superpuesta sobre la imagen
+- [x] Casi no había micro-interacciones — se agregó `scroll-reveal.js` (nuevo archivo compartido) con animación de aparición al hacer scroll para tarjetas y bloques en las 11 páginas, respetando "reducir movimiento" del sistema operativo
 
 ## 🟢 Largo plazo
 

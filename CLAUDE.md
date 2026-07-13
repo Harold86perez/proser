@@ -63,6 +63,7 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 | `contacto/` | Contacto |
 | `privacidad/` | Política de privacidad |
 | `style.css` | Hoja de estilos global, compartida por todas las páginas |
+| `scroll-reveal.js` | Script compartido (cargado con `<script defer>` en las 11 páginas) que anima la aparición de tarjetas/bloques al hacer scroll |
 | `logo-*.jpg/png`, `foto-*.jpg` | Imágenes de marca, equipo y logos de clientes/aliados |
 | `favicon*.png/svg` | Íconos del sitio |
 | `robots.txt`, `sitemap.xml` | SEO técnico |
