@@ -84,6 +84,7 @@
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos en qué podemos ayudarte..." required></textarea>
           </div>
+          <input type="text" name="sitio_web" id="sitio_web" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;" aria-hidden="true">
           <button type="submit" class="btn-blue" style="width:100%;justify-content:center;">Enviar mensaje</button>
           <div id="formMsg" style="margin-top:1rem;font-size:.86rem;display:none;"></div>
         </form>
@@ -174,13 +175,41 @@
   toggle.addEventListener('click', () => { links.classList.toggle('open'); toggle.classList.toggle('open'); });
   links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { links.classList.remove('open'); toggle.classList.remove('open'); }));
 
-  document.getElementById('contactForm').addEventListener('submit', function(e) {
+  document.getElementById('contactForm').addEventListener('submit', async function(e) {
     e.preventDefault();
+    const form = this;
     const msg = document.getElementById('formMsg');
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
     msg.style.display = 'block';
-    msg.style.color = 'var(--verde)';
-    msg.textContent = 'Mensaje enviado. Te contactaremos lo antes posible.';
-    this.reset();
+    msg.style.color = 'var(--gris-text)';
+    msg.textContent = 'Enviando...';
+
+    const datos = {
+      nombre: form.nombre.value,
+      email: form.email.value,
+      telefono: form.telefono.value,
+      servicio: form.servicio.value,
+      mensaje: form.mensaje.value,
+      sitio_web: form.sitio_web.value,
+    };
+
+    try {
+      const resp = await fetch('https://prosercps-formulario.hd-perezramirez.workers.dev', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(datos),
+      });
+      if (!resp.ok) throw new Error('Error al enviar');
+      msg.style.color = 'var(--verde)';
+      msg.textContent = 'Mensaje enviado. Te contactaremos lo antes posible.';
+      form.reset();
+    } catch (err) {
+      msg.style.color = '#c0392b';
+      msg.textContent = 'No se pudo enviar el mensaje. Intenta de nuevo o escríbenos por WhatsApp.';
+    } finally {
+      btn.disabled = false;
+    }
   });
 </script>
 </body>

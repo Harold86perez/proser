@@ -66,6 +66,7 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 | `logo-*.jpg/png`, `foto-*.jpg` | Imágenes de marca, equipo y logos de clientes/aliados |
 | `favicon*.png/svg` | Íconos del sitio |
 | `robots.txt`, `sitemap.xml` | SEO técnico |
+| `worker-formularios/` | Cloudflare Worker (`prosercps-formulario`) que recibe el POST del formulario de `contacto/` y lo envía por correo a info@prosercps.org vía Resend (cuenta separada de la de haroldperez.com). Se despliega con `npx wrangler deploy` desde esa carpeta — no se auto-despliega con el push del sitio. |
 
 ## Protocolo de trabajo con `fases_plan/`
 

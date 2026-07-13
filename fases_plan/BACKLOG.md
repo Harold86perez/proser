@@ -4,7 +4,7 @@
 
 ## 🔴 Corto plazo
 
-- [ ] El formulario de contacto no envía nada (`contacto/index.html`) — el JS solo simula éxito, el mensaje nunca llega. **En pausa:** requiere un Worker propio para enviar el correo sin tocar el DNS de Zoho (donde vive info@prosercps.org); falta decidir el método de envío (ver bitácora de `fases_plan/P-02_formulario-contacto.md` si se abre esa fase).
+- [x] El formulario de contacto no envía nada — resuelto con un Cloudflare Worker (`worker-formularios/`) que envía por Resend (cuenta nueva y separada de haroldperez.com) a info@prosercps.org, sin tocar el DNS de Zoho. Incluye honeypot anti-spam.
 - [x] YouTube sigue apareciendo en `contacto/index.html` — reemplazado por LinkedIn
 - [x] `privacidad/index.html` usaba `<br>` para separar email/teléfono/dirección — ahora son `<p>` individuales
 - [ ] Falta el enlace "Blog" en el menú de `index.html` (portada)

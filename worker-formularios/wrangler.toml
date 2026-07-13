@@ -1,0 +1,8 @@
+name = "prosercps-formulario"
+main = "src/worker.js"
+compatibility_date = "2026-07-13"
+
+[vars]
+DESTINO = "info@prosercps.org"
+REMITENTE = "ProSer <formulario@prosercps.org>"
+ORIGEN_PERMITIDO = "https://prosercps.org"
