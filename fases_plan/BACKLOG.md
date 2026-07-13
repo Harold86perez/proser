@@ -20,6 +20,20 @@
 - [ ] Corregir la etiqueta de accesibilidad del botón de menú (☰) para que cambie entre "Abrir menú" / "Cerrar menú"
 - [ ] Confirmar con Harold: ¿el footer debe mostrar los tres correos en el orden definido, o solo `info@prosercps.org` como hoy?
 
+## 🎨 Diseño / estética (de la revisión "la web se ve demasiado simple")
+
+- [x] Todo tenía el mismo radio de esquina y sombra en toda la web — ahora cada familia de tarjetas (servicios, testimonios, ebooks, proyectos, blog) tiene su propia forma y sombra
+- [x] La tipografía Cormorant Garamond estaba subutilizada — ahora protagoniza las citas de testimonios (más grande, itálica) y los números destacados
+- [x] Casi todo el sitio era azul — se agregó ciclo de color (azul/magenta/verde) en testimonios, estadísticas, beneficios de membresía, y CTA final de Servicios (magenta) y Recursos (verde)
+- [x] Las tarjetas eran idénticas entre secciones — variadas: proyectos y blog con esquinas más rectas (editorial), servicios y ebooks con esquinas más suaves
+- [x] Poco contraste de tamaño entre textos — títulos de sección y del CTA final agrandados
+- [ ] Las fotos reales (equipo, testimonios) no tienen tratamiento de color de marca
+- [x] No había iconografía propia — los íconos de servicios/Kliné ahora tienen forma orgánica (no círculo genérico) con animación sutil al pasar el mouse
+- [ ] La franja multicolor de marca se usa poco, solo como línea divisoria delgada
+- [ ] Layouts muy simétricos y predecibles (todo en grid de 2-3 columnas iguales)
+- [ ] El hero de la portada es solo texto + botones, sin imagen o elemento visual fuerte
+- [ ] Casi no hay micro-interacciones (animaciones de entrada al hacer scroll, etc.)
+
 ## 🟢 Largo plazo
 
 - [ ] Agregar datos estructurados (schema.org "Negocio Local") para mejorar aparición en Google
