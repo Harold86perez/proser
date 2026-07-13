@@ -27,12 +27,17 @@
 - [x] Casi todo el sitio era azul — se agregó ciclo de color (azul/magenta/verde) en testimonios, estadísticas, beneficios de membresía, y CTA final de Servicios (magenta) y Recursos (verde)
 - [x] Las tarjetas eran idénticas entre secciones — variadas: proyectos y blog con esquinas más rectas (editorial), servicios y ebooks con esquinas más suaves
 - [x] Poco contraste de tamaño entre textos — títulos de sección y del CTA final agrandados
-- [ ] Las fotos reales (equipo, testimonios) no tienen tratamiento de color de marca
+- [x] Las fotos del equipo no tenían tratamiento de color de marca — las fotos circulares de `sobre/index.html` ahora tienen un filtro dúotono azulado, y muestran el color real al pasar el cursor
 - [x] No había iconografía propia — los íconos de servicios/Kliné ahora tienen forma orgánica (no círculo genérico) con animación sutil al pasar el mouse
 - [x] La franja multicolor de marca se usaba poco — ahora colorea el `rule-blue` (divisor pequeño usado en 5 páginas), tiene un fondo tenue detrás de "Aliados y clientes" en portada, y protagoniza el acento del hero
 - [x] Layouts muy simétricos — columnas de texto/imagen ahora asimétricas (`grid-2` 1.12fr/.88fr), tarjetas de estadísticas y Misión/Visión escalonadas verticalmente en vez de alineadas en cuadrícula perfecta
-- [x] El hero de la portada ya tenía foto del equipo, pero se sentía plano — ahora tiene un acento de franja multicolor detrás y una insignia flotante ("+10 años") superpuesta sobre la imagen
-- [x] Casi no había micro-interacciones — se agregó `scroll-reveal.js` (nuevo archivo compartido) con animación de aparición al hacer scroll para tarjetas y bloques en las 11 páginas, respetando "reducir movimiento" del sistema operativo
+- [x] El hero de la portada ya tenía foto del equipo, pero se sentía plano — ahora tiene manchas de color difuminadas de fondo, un acento de franja multicolor y una insignia flotante ("+10 años") superpuesta sobre la imagen
+- [x] Casi no había micro-interacciones — se agregó `scroll-reveal.js` (nuevo archivo compartido) con animación de aparición al hacer scroll, y un efecto "spotlight" que sigue el cursor al pasar sobre tarjetas de servicios/ebooks/proyectos/blog
+- [x] Secciones sin textura ni corte — el CTA final ahora tiene bordes en diagonal (no rectángulo recto) y una mancha de luz de fondo; la sección de testimonios tiene una comilla gigante decorativa de fondo
+- [ ] Falta un momento tipográfico gigante de marca (una frase corta en tamaño enorme, ej. "Promover el Ser" ocupando casi todo el ancho de pantalla, una sola vez en el sitio)
+- [ ] Ilustraciones propias en vez de íconos de trazo genérico (encargar o generar 4-5 ilustraciones lineales de bienestar/psicología para reemplazar los íconos de Servicios)
+- [ ] Una sección "historia destacada" con formato distinto a todo lo demás (un proyecto social con foto grande de fondo y texto superpuesto, sin tarjetas ni columnas)
+- [ ] Cuadrículas tipo "bento" en vez de columnas iguales (un servicio o proyecto insignia ocupa más espacio que los demás, en vez de que todas las celdas midan lo mismo)
 
 ## 🟢 Largo plazo
 

@@ -31,4 +31,16 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 
   els.forEach((el) => io.observe(el));
+
+  const spotlightEls = document.querySelectorAll(
+    '.service-card, .ebook-card, .project-card, .blog-card'
+  );
+  spotlightEls.forEach((el) => {
+    el.classList.add('spotlight');
+    el.addEventListener('mousemove', (e) => {
+      const rect = el.getBoundingClientRect();
+      el.style.setProperty('--mx', `${e.clientX - rect.left}px`);
+      el.style.setProperty('--my', `${e.clientY - rect.top}px`);
+    });
+  });
 });
