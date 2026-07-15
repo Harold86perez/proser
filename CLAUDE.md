@@ -111,6 +111,7 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 | P-07 | Optimización de vista móvil (scroll horizontal en varias páginas, foto de hero oculta) | ✅ hecho |
 | P-08 | SEO local/regional/internacional: datos estructurados schema.org, meta descriptions, textos visibles con las 3 capas geográficas, sitemap enviado a Search Console | ✅ hecho |
 | P-09 | Google Business Profile optimizado (categorías, área de servicio) | ✅ hecho (por Harold) |
+| P-10 | Fotos reales del trabajo de campo en Contacto, Servicios, Sobre y Membresía (reemplazo de espacios vacíos/genéricos) | ✅ hecho |
 
 ## Deploy
 
