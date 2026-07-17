@@ -112,6 +112,8 @@ Cada carpeta es una página del sitio, con su propio `index.html` (no hay routin
 | P-08 | SEO local/regional/internacional: datos estructurados schema.org, meta descriptions, textos visibles con las 3 capas geográficas, sitemap enviado a Search Console | ✅ hecho |
 | P-09 | Google Business Profile optimizado (categorías, área de servicio) | ✅ hecho (por Harold) |
 | P-10 | Fotos reales del trabajo de campo en Contacto, Servicios, Sobre y Membresía (reemplazo de espacios vacíos/genéricos) | ✅ hecho |
+| P-11 | Pulido de interacciones, accesibilidad y motion (easing de marca, estados `:active`, foco visible, contraste AA, objetivos táctiles, `prefers-reduced-motion` completo) | ✅ hecho |
+| P-12 | Migración de tipografía a Nunito + Open Sans según el manual de identidad oficial (reemplaza Cormorant Garamond + Inter) | ✅ hecho |
 
 ## Deploy
 
