@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "title": "Design System: ProSer — Consultores Psicosociales",
+  "extensions": {
+    "colorMeta": {
+      "azul": { "role": "primary", "displayName": "Azul Clínico", "canonical": "#38ace4", "tonalRamp": ["#0f2733", "#194d67", "#1f6488", "#287ca4", "#38ace4", "#6cc3ec", "#a6dcf4", "#e7f5fc"] },
+      "magenta": { "role": "secondary", "displayName": "Magenta Pedagógico", "canonical": "#c02c7c", "tonalRamp": ["#2d0a1c", "#7d1d51", "#9c2465", "#c02c7c", "#d65999", "#e488b8", "#f0b6d4", "#f9eaf2"] },
+      "verde": { "role": "secondary", "displayName": "Verde Comunitario", "canonical": "#509c44", "tonalRamp": ["#132a10", "#34652c", "#3f7d36", "#509c44", "#75b76b", "#9dcc95", "#c5e2bf", "#eaf3e9"] },
+      "azul-empresarial": { "role": "secondary", "displayName": "Azul Empresarial", "canonical": "#385cac", "tonalRamp": ["#0f1830", "#1f335f", "#2a458a", "#385cac", "#6180c4", "#8ba5d6", "#b7c8e7", "#ebeff7"] },
+      "amarillo": { "role": "secondary", "displayName": "Amarillo Proyección", "canonical": "#f8cc2c", "tonalRamp": ["#3d3005", "#7a610b", "#bc9b21", "#f8cc2c", "#fada63", "#fce596", "#fdf0c3", "#fefbee"] },
+      "petroleo": { "role": "tertiary", "displayName": "Petróleo", "canonical": "#1a2a3a" },
+      "negro-marca": { "role": "tertiary", "displayName": "Negro de Marca", "canonical": "#0d1117" },
+      "gris-bg": { "role": "neutral", "displayName": "Gris Fondo", "canonical": "#f1f4f9" },
+      "gris-line": { "role": "neutral", "displayName": "Gris Línea", "canonical": "#d8dee7" },
+      "gris-text": { "role": "neutral", "displayName": "Gris Texto", "canonical": "#5b6472" },
+      "negro": { "role": "neutral", "displayName": "Negro", "canonical": "#1a1a1a" },
+      "blanco": { "role": "neutral", "displayName": "Blanco", "canonical": "#ffffff" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Titulares de hero, combinando romano ExtraBold (800) y cursiva Light (300)." },
+      "headline": { "displayName": "Headline", "purpose": "Títulos de sección." },
+      "title": { "displayName": "Title", "purpose": "Títulos de tarjeta." },
+      "body": { "displayName": "Body", "purpose": "Párrafos y texto de tarjeta." },
+      "label": { "displayName": "Label", "purpose": "Eyebrows y etiquetas de botón, siempre mayúsculas." }
+    },
+    "shadows": [
+      { "name": "shadow", "value": "0 2px 12px rgba(0,0,0,0.07)", "purpose": "Reposo de tarjetas de servicio, testimonio y proyecto." },
+      { "name": "shadow-md", "value": "0 4px 24px rgba(0,0,0,0.10)", "purpose": "Hover de testimonios; navbar con scroll; menú móvil abierto." },
+      { "name": "shadow-lg", "value": "0 12px 40px rgba(20,120,180,0.14)", "purpose": "Hover de tarjetas de servicio, proyecto y ebook." }
+    ],
+    "motion": [
+      { "name": "lift-hover", "value": "transform: translateY(-3px to -4px); transition: transform .2s-.25s, box-shadow .2s-.25s", "purpose": "Elevación estándar de toda tarjeta interactiva al hover." },
+      { "name": "icon-organic-to-circle", "value": "border-radius: 42% 58% 65% 35% / 45% 40% 60% 55% → 50%; transform: rotate(±6deg); transition: border-radius .3s, transform .3s", "purpose": "Firma visual de contenedores de ícono al hover." }
+    ],
+    "breakpoints": [
+      { "name": "tablet", "value": "768px" },
+      { "name": "mobile", "value": "480px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "CTA sólido principal, fondo azul, label en mayúsculas.",
+      "html": "<a href=\"#\" class=\"ds-btn-primary\">Nuestros servicios</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: .5rem; background: #38ace4; color: #ffffff; padding: .8rem 1.75rem; font-family: 'Nunito', system-ui, sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; border-radius: 4px; transition: background .2s, transform .15s; } .ds-btn-primary:hover { background: #287ca4; transform: translateY(-1px); } .ds-btn-primary:focus-visible { outline: 2px solid #194d67; outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "CTA secundario de borde, se invierte a sólido al hover.",
+      "html": "<a href=\"#\" class=\"ds-btn-outline\">Solicitar información</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; gap: .5rem; background: transparent; color: #1a1a1a; padding: .8rem 1.75rem; font-family: 'Nunito', system-ui, sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; border: 1.5px solid #1a1a1a; border-radius: 4px; transition: all .2s; } .ds-btn-outline:hover { background: #1a1a1a; color: #ffffff; } .ds-btn-outline:focus-visible { outline: 2px solid #38ace4; outline-offset: 2px; }"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "service-card",
+      "description": "Tarjeta de línea de servicio con ícono orgánico→circular al hover.",
+      "html": "<article class=\"ds-service-card\"><div class=\"ds-service-icon\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/></svg></div><h3>Acompañamiento Terapéutico</h3><p>Apoyo especializado y personalizado para el desarrollo personal y el bienestar psicológico.</p><a href=\"#\" class=\"ds-service-link\">Ver servicios →</a></article>",
+      "css": ".ds-service-card { background: #ffffff; border-radius: 16px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.07); display: flex; flex-direction: column; gap: .9rem; transition: transform .25s, box-shadow .25s, border-radius .25s; } .ds-service-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(20,120,180,0.14); border-radius: 6px 16px 16px 16px; } .ds-service-card h3 { font-family: 'Nunito', system-ui, sans-serif; font-size: 1.15rem; font-weight: 600; line-height: 1.25; color: #1a1a1a; } .ds-service-card p { font-family: 'Open Sans', Arial, sans-serif; font-size: .86rem; color: #5b6472; line-height: 1.75; } .ds-service-icon { width: 52px; height: 52px; border-radius: 42% 58% 65% 35% / 45% 40% 60% 55%; background: #e7f5fc; color: #38ace4; display: flex; align-items: center; justify-content: center; transition: border-radius .3s, transform .3s; } .ds-service-card:hover .ds-service-icon { border-radius: 50%; transform: rotate(-6deg); } .ds-service-link { font-family: 'Open Sans', Arial, sans-serif; font-size: .82rem; font-weight: 600; color: #38ace4; text-decoration: none; }"
+    },
+    {
+      "name": "Stat Card",
+      "kind": "card",
+      "refersTo": "stat-card",
+      "description": "Tarjeta de estadística compacta sobre fondo gris.",
+      "html": "<div class=\"ds-stat-card\"><span class=\"ds-stat-num\">+10</span><span class=\"ds-stat-label\">años de experiencia</span></div>",
+      "css": ".ds-stat-card { background: #f1f4f9; border-radius: 4px; padding: 1.25rem; display: flex; flex-direction: column; gap: .3rem; } .ds-stat-num { font-family: 'Nunito', system-ui, sans-serif; font-size: 1.8rem; font-weight: 600; color: #38ace4; line-height: 1; } .ds-stat-label { font-family: 'Open Sans', Arial, sans-serif; font-size: .78rem; color: #5b6472; }"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Navbar transparente que gana sombra y borde al hacer scroll; CTA final resaltado.",
+      "html": "<nav class=\"ds-navbar\"><div class=\"ds-nav-inner\"><a href=\"#\" class=\"ds-nav-logo\">ProSer</a><ul class=\"ds-nav-links\"><li><a href=\"#\">Servicios</a></li><li><a href=\"#\" class=\"ds-nav-cta\">Contáctanos</a></li></ul></div></nav>",
+      "css": ".ds-navbar { background: #ffffff; border-bottom: 1px solid transparent; transition: border-color .3s, box-shadow .3s; } .ds-nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; } .ds-nav-links { display: flex; gap: 1.25rem; list-style: none; align-items: center; } .ds-nav-links a { font-family: 'Nunito', system-ui, sans-serif; font-size: .7rem; font-weight: 700; text-transform: uppercase; color: #1a1a1a; text-decoration: none; transition: color .2s; } .ds-nav-links a:hover { color: #38ace4; } .ds-nav-cta { background: #38ace4 !important; color: #ffffff !important; padding: .45rem 1.1rem !important; border-radius: 4px !important; } .ds-nav-cta:hover { background: #287ca4 !important; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El Consultorio Luminoso",
+    "overview": "ProSer se siente como un consultorio bañado en luz natural, no como una clínica fría ni un panel de software corporativo: superficies blancas y neutras que dejan respirar el contenido, y cinco colores vivos — uno por cada línea de servicio — que aportan calidez y variedad sin romper la cohesión de marca. La tipografía sigue el manual de identidad de ProSer: Nunito para títulos, etiquetas y botones, y Open Sans para el cuerpo de texto. El sistema rechaza explícitamente el azul corporativo plano tipo SaaS y el blanco excesivo de un entorno hospitalario: la calidez humana debe sentirse tanto como la rigurosidad científica.",
+    "keyCharacteristics": [
+      "Superficies blancas/neutras como base, con color introducido de forma deliberada por línea de servicio, nunca de forma genérica.",
+      "Formas orgánicas (iconos, radios asimétricos) que se resuelven en formas precisas al interactuar — orgánico pero preciso.",
+      "Elevación suave: sombras ligeras en reposo, ligero levantamiento (translateY) y sombra más marcada al hover.",
+      "Una banda multicolor (--band) como firma visual recurrente, usada como divisor de sección y regla decorativa."
+    ],
+    "rules": [
+      { "name": "The One Line, One Color Rule", "body": "Cada línea de servicio tiene su color oficial fijo y ese color no se reutiliza para otra línea en ningún contexto. La franja hero de cada página de servicio usa el mismo color que su CTA final.", "section": "colors" },
+      { "name": "The White Footer Rule", "body": "El footer siempre es blanco, nunca oscuro, sin excepción.", "section": "colors" },
+      { "name": "The Roman-Italic Pairing Rule", "body": "Los titulares de hero alternan peso 600 romano y cursiva 400 dentro del mismo h1, nunca dos pesos romanos.", "section": "typography" },
+      { "name": "The Lift-on-Hover Rule", "body": "Toda tarjeta interactiva se eleva físicamente al hover (translateY negativo + sombra ampliada).", "section": "elevation" }
+    ],
+    "dos": [
+      "Do usar el color oficial de cada línea de servicio de forma exclusiva para esa línea.",
+      "Do mantener el footer blanco siempre, sin excepción.",
+      "Do aplicar la transformación orgánico→círculo únicamente a contenedores de ícono.",
+      "Do elevar toda tarjeta interactiva al hover.",
+      "Do combinar romano 600 y cursiva 400 en titulares de hero.",
+      "Do usar la banda multicolor como firma recurrente de divisor de sección."
+    ],
+    "donts": [
+      "Don't usar azul corporativo plano ni estética tipo SaaS genérico.",
+      "Don't llevar el blanco a un extremo clínico/hospitalario impersonal.",
+      "Don't usar border-left o border-right como franja de acento decorativa.",
+      "Don't usar gradientes en texto ni glassmorphism decorativo.",
+      "Don't poner emojis en ninguna parte del sitio.",
+      "Don't usar un color de línea de servicio para representar otra línea."
+    ]
+  }
+}
